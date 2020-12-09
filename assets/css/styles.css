@@ -1,3 +1,4 @@
+/******************************** all pages ***************/
 body {
   font-family: 'Nunito Sans', sans-serif;
 }
@@ -30,7 +31,7 @@ img{
   border-radius: 4px;
   padding: 5px;
 }
-/*************** background image for home page***************/
+/************************************ home page ***************/
 .background {
   height: 800px;
   width: 100%;
@@ -39,46 +40,58 @@ img{
   background-position: center;
 }
 
-/*************** background color for other pages***************/
+h1{
+  text-align: center;
+  font-size: 80px;
+  color: white;
+  font-family: 'Nunito Sans', sans-serif;
+  padding-top: 35%;
+  padding-left: 0;
+  padding-right: 0;
+ }
+ 
+ p{
+   text-align: center;
+   font: 20px;
+   color: #c8eaf5;
+   font-family: Georgia, 'Times New Roman', Times, serif;
+  }
+ 
+  .icons1{
+    padding-top:10px;
+    padding-left: 30%;
+    margin-bottom: 40px;
+    border: 0;
+  }
+
+/******************************** background color for other pages***************/
 .bgcolor{
   /* background-color: black; */
 }
-
-
-h1{
- text-align: center;
- font-size: 80px;
- color: white;
- font-family: 'Nunito Sans', sans-serif;
- padding-top: 35%;
- padding-left: 0;
- padding-right: 0;
-}
-
-p{
-  text-align: center;
-  font: 20px;
-  color: #c8eaf5;
-  font-family: Georgia, 'Times New Roman', Times, serif;
- }
-
   /*************** portfolio page style***************/
 
   .portheader{
-    margin-top: 100px;
-  }
-  
-  
-
-  .portimages1, .portimages2, .portimages3{
-    height: 350px;
-    margin: 10px;
-    padding: 10px;
-    margin-left: 50px;
+    margin-top: 80px;
   }
 
+  .portimages1, .portimages2 {
+    padding-bottom: 50px;
+    padding-top: 10px;
+  }
+
+  .portimages1{
+    padding-left: 5%;
+    margin-right: 100px;
+
+  }
  
- /*************** contact page style***************/
+  .portimages2{
+    padding-right: 5%;
+    margin-left: 100px;
+
+  }
+
+ /********************************************* contact page style***************/
 
  .contacthead{
    margin-top: 80px;
@@ -128,9 +141,7 @@ input{
   padding-top: 10px;
 }
 
- 
-
- /*************** footer style ***************/
+ /**************************************** footer style ***************/
 
 .footer {
   height: 40px;
@@ -141,9 +152,71 @@ input{
   color: #fff;
 }
 
-/* @media screen and (max-width: 992px);{
-  .h1{
-    padding-top: 900%;
+ /********************* Screen Change at XLarge Size **************************************/
+
+@media only screen and (max-width: 1450px){
+  /********************* Index Page *************/
+  /********************* Portfolio Page ********/  
+  /********************* Contact Page ************/
+    h2{
+      padding-left: 40%;
+    }
+    .profilepic{
+      margin-left: 10%;
+    }
+  }  
+
+
+ /********************* Screen Change at Large Size **************************************/
+ @media only screen and (max-width: 1200px){
+  /********************* Index Page *************/
+  /********************* Portfolio Page ********/  
+  /********************* Contact Page ************/
+    h2{
+      padding-left: 40%;
+    }
+  }  
+
+  /********************* Screen Change at Medium Size **************************************/
+@media only screen and (max-width: 992px){
+/********************* Index Page *************/
+  h2{
+    padding-left: 35%;
   }
-} */
-  
+  /********************* Portfolio Page ********/
+  .portimages1, .portimages2{
+    margin-left: 0;
+    margin-right: 0;
+    padding-right:0;
+    padding-left:0;
+    align-content: center;
+    text-align: center;
+  }
+  .portimages2{
+    margin-left: 0px;  }
+
+  hr{
+    margin-left: 0;
+  }
+  /********************* Contact Page ************/
+  .profilepic{
+    margin-left: 70%;
+  }
+}  
+
+  /********************* Screen Change at Small Size *************************************/
+@media only screen and (max-width:767px){
+  /********************* Index Page ************/
+  h2{
+    padding-left: 30%;
+  }
+   /********************* Portfolio Page ********/  
+   .hr{
+    margin-left: 0;
+  }
+ /********************* Contact Page ***********/
+   .profilepic{
+    margin-left: 10%;
+  }
+ 
+}
