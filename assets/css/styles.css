@@ -59,7 +59,7 @@ h1{
  
   .icons1{
     padding-top:10px;
-    padding-left: 30%;
+    padding-left: 25%;
     margin-bottom: 40px;
     border: 0;
   }
@@ -79,7 +79,7 @@ h1{
     padding-top: 10px;
   }
 
-  .portimages1{
+  /* .portimages1{
     padding-left: 5%;
     margin-right: 100px;
 
@@ -87,7 +87,7 @@ h1{
  
   .portimages2{
     padding-right: 5%;
-    margin-left: 100px;
+    margin-left: 100px; */
 
   }
 
@@ -103,7 +103,8 @@ h1{
 h2{
   font-size: 290%;
   font-family: 'Nunito Sans', sans-serif;
-  padding-left: 25%;
+  padding-left: 35%;
+  margin-top: 80px;
 
 }
 
@@ -159,7 +160,7 @@ input{
   /********************* Portfolio Page ********/  
   /********************* Contact Page ************/
     h2{
-      padding-left: 40%;
+      padding-left: 38%;
     }
     .profilepic{
       margin-left: 10%;
@@ -171,6 +172,11 @@ input{
  @media only screen and (max-width: 1200px){
   /********************* Index Page *************/
   /********************* Portfolio Page ********/  
+ .portimages1{
+    margin-right: 10px;
+
+  }
+
   /********************* Contact Page ************/
     h2{
       padding-left: 40%;
@@ -203,12 +209,12 @@ input{
     margin-left: 70%;
   }
 }  
-
   /********************* Screen Change at Small Size *************************************/
 @media only screen and (max-width:767px){
+  .mobile-space{margin:0;}
   /********************* Index Page ************/
   h2{
-    padding-left: 30%;
+    padding-left: 25%;
   }
    /********************* Portfolio Page ********/  
    .hr{
