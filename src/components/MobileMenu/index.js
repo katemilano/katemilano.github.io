@@ -1,5 +1,5 @@
 import React from 'react';
-import {MobileMenuContainer, Icon, CloseIcon} from './MobileMenuElements';
+import {MobileMenuContainer, Icon, CloseIcon, MobileWrapper, MMenu, MobileMenuLink} from './MobileMenuElements';
 
 const MobileMenu = () => {
     return (
