@@ -3,6 +3,7 @@ import MobileMenu from '../components/MobileMenu'
 import Navbar from '../components/Navbar'
 import HomeBlock from '../components/HomeBlock'
 import MainSection from '../components/MainSection'
+import SkillSection from '../components/SkillSection'
 
 const Home = () => {
     const [isOpen, setIsOpen] = useState(false)
@@ -16,6 +17,7 @@ const Home = () => {
             <Navbar toggle={toggle}/>
             <HomeBlock />
             <MainSection />
+            <SkillSection />
         </>
     )
 }
