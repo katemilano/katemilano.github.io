@@ -26,7 +26,6 @@ export const Header = styled.h1`
     text-align: center;
     color: pink;
     padding-top: 60px;
-    padding-bottom: 20px;
     margin-top: 120px;
 
 `;
@@ -39,37 +38,38 @@ export const SkillContent = styled.div`
     display: flex;
     flex-direction: column;
     align-items: center;
-    margin-left: 10px;
-    margin-right: 10px;
     margin-bottom: 10px;
     display: grid;
-    grid-template-columns: repeat(4, 1fr);
+    grid-template-columns: repeat(6, 1fr);
     grid-auto-rows: auto;
-    grid-gap: 1rem;
-    margin-top: -100px;
+    grid-gap: 6rem;
+    margin-top: 100px;
 
 
     @media screen and (max-width: 960px){
-        grid-template-columns: repeat(2, 1fr);
+        grid-template-columns: repeat(4, 1fr);
         grid-auto-rows: auto;
         grid-gap: 1rem;
         margin-top: -300px;
     }
 
     @media screen and (max-width: 640px){
-        grid-template-columns: repeat(1, 1fr);
+        grid-template-columns: repeat(2, 1fr);
         grid-auto-rows: auto;
-        grid-gap: 1rem;
+        grid-gap: 2rem;
         margin-top: -1200px;
     }
 `;
 
 export const SkillCard = styled.div`
     background-color: transparent;
-    width: 150px;
-    height: 150px;
+    width: 80px;
+    height: 80px;
     border: 1px solid #f1f1f1;
     perspective: 1000px
+    margin: 500px;
+    border:none;
+    margin-top: 30px;
 
 `;
 

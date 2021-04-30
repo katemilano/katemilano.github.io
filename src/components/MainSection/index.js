@@ -2,7 +2,7 @@ import React from 'react'
 import {MainContainer, MainContent, MainCard, MainCardContent, CardFront, CardBack, CardTitle, CardBody, Header} from './MainSectionElements'
 import pic from '../../images/image.png';
 import locationhub from '../../images/locationhub.png';
-import workoutapp   from '../../images/workoutapp.png'
+import workoutapp   from '../../images/workoutapp.png';
 
 
 const MainSection = () => {
