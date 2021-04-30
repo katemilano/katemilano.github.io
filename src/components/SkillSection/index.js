@@ -1,5 +1,5 @@
 import React from 'react'
-import {Header, SkillContainer, SkillContent} from './SkillSectionElements'
+import {Header, SkillContainer, SkillContent, SkillCard} from './SkillSectionElements'
 
 
 const SkillSection = () => {
@@ -8,6 +8,9 @@ const SkillSection = () => {
         <Header>My Skills</Header>
             <SkillContainer>
                 <SkillContent>
+                    <SkillCard>
+                        <img src={} alt="javascripticon" height={150} width={150}/>
+                    </SkillCard>
                         
                 </SkillContent>
             </SkillContainer>

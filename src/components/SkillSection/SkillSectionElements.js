@@ -24,18 +24,11 @@ export const SkillContainer = styled.div`
 export const Header = styled.h1`
     font-size: 60px;
     text-align: center;
-    color: #ffffc2;
-    background-color: #c4ebf1;
-    padding-top: 30px;
+    color: pink;
+    padding-top: 60px;
     padding-bottom: 20px;
+    margin-top: 120px;
 
-    @media screen and (max-width: 960px){
-        padding-bottom: 300px;
-    }
-
-    @media screen and (max-width: 640px){
-        padding-bottom: 1200px;
-    }
 `;
 
 export const SkillContent = styled.div`
@@ -50,7 +43,7 @@ export const SkillContent = styled.div`
     margin-right: 10px;
     margin-bottom: 10px;
     display: grid;
-    grid-template-columns: repeat(3, 1fr);
+    grid-template-columns: repeat(4, 1fr);
     grid-auto-rows: auto;
     grid-gap: 1rem;
     margin-top: -100px;
@@ -71,15 +64,12 @@ export const SkillContent = styled.div`
     }
 `;
 
-export const MainCard = styled.div`
+export const SkillCard = styled.div`
     background-color: transparent;
-    width: 300px;
-    height: 300px;
+    width: 150px;
+    height: 150px;
     border: 1px solid #f1f1f1;
     perspective: 1000px
 
-    &:hover{
-        transform: rotateY(180deg);
-    }
 `;
 
