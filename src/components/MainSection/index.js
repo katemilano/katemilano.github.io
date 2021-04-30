@@ -1,6 +1,9 @@
 import React from 'react'
 import {MainContainer, MainContent, MainCard, MainCardContent, CardFront, CardBack, CardTitle, CardBody, Header} from './MainSectionElements'
 import pic from '../../images/image.png';
+import locationhub from '../../images/locationhub.png';
+import workoutapp   from '../../images/workoutapp.png'
+
 
 const MainSection = () => {
     return (
@@ -8,7 +11,6 @@ const MainSection = () => {
         <Header>Projects</Header>
             <MainContainer>
                 <MainContent>
-                    
                         <MainCard>
                             <MainCardContent>
                                 <CardFront>
@@ -23,7 +25,7 @@ const MainSection = () => {
                         <MainCard>
                             <MainCardContent>
                                 <CardFront>
-                                    <img src={pic} alt="project1" height={300} width={300}/>
+                                    <img src={locationhub} alt="project1" height={300} width={300}/>
                                 </CardFront>
                                 <CardBack>
                                     <CardTitle>Project 1</CardTitle>
@@ -34,7 +36,7 @@ const MainSection = () => {
                         <MainCard>
                             <MainCardContent>
                                 <CardFront>
-                                    <img src={pic} alt="project1" height={300} width={300}/>
+                                    <img src={workoutapp} alt="project1" height={300} width={300}/>
                                 </CardFront>
                                 <CardBack>
                                     <CardTitle>Project 1</CardTitle>

@@ -9,12 +9,33 @@ export const MainContainer = styled.div`
     height: 800px;
     position: relative;
     z-index: 1;
+    margin-bottom: -150px;
+
+    @media screen and (max-width: 960px){
+        margin-bottom: 600px;
+    }
+
+    @media screen and (max-width: 640px){
+        margin-bottom: 900px;
+
+    }
 `;
 
 export const Header = styled.h1`
-    font-size: 40px;
+    font-size: 60px;
     text-align: center;
-    color: orange;
+    color: #ffffc2;
+    background-color: #c4ebf1;
+    padding-top: 30px;
+    padding-bottom: 20px;
+
+    @media screen and (max-width: 960px){
+        padding-bottom: 300px;
+    }
+
+    @media screen and (max-width: 640px){
+        padding-bottom: 1200px;
+    }
 `;
 
 export const MainContent = styled.div`
@@ -32,17 +53,21 @@ export const MainContent = styled.div`
     grid-template-columns: repeat(3, 1fr);
     grid-auto-rows: auto;
     grid-gap: 1rem;
+    margin-top: -100px;
+
 
     @media screen and (max-width: 960px){
         grid-template-columns: repeat(2, 1fr);
         grid-auto-rows: auto;
         grid-gap: 1rem;
+        margin-top: -300px;
     }
 
     @media screen and (max-width: 640px){
         grid-template-columns: repeat(1, 1fr);
         grid-auto-rows: auto;
         grid-gap: 1rem;
+        margin-top: -1200px;
     }
 `;
 
@@ -84,8 +109,8 @@ export const CardFront = styled.div`
 
 export const CardBack = styled.div`
     background-color: white;
-    width: 40px;
-    height: 40px;
+    width: 45px;
+    height: 45px;
     transform: rotateY(180deg);
     position: absolute;
     width: 100%;
