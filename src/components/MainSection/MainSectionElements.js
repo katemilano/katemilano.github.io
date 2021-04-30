@@ -11,6 +11,12 @@ export const MainContainer = styled.div`
     z-index: 1;
 `;
 
+export const Header = styled.h1`
+    font-size: 40px;
+    text-align: center;
+    color: orange;
+`;
+
 export const MainContent = styled.div`
     z-index: 3;
     max-width: 1200px;
