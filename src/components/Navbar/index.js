@@ -12,6 +12,7 @@ import {
 } from './NavbarElements';
 import home from '../HomeBlock'
 import { scrollToTop } from 'react-scroll/modules/mixins/animate-scroll';
+import { Link } from 'react-router-dom';
 
 
 const Navbar = ({ toggle }) => {
@@ -30,16 +31,44 @@ const Navbar = ({ toggle }) => {
                     </MobileIcon>
                     <NavMenu>
                         <NavItem>
-                            <NavLinks href='/'>Home</NavLinks>
+                            <NavLinks 
+                                to='home'
+                                smooth={true}
+                                duraction={500}
+                                spy={true}
+                                exact='true'
+                                offset={-80}
+                                >Home</NavLinks>
                         </NavItem>
                         <NavItem>
-                            <NavLinks href='#projects'>Projects</NavLinks>
+                            <NavLinks 
+                                to='projects'
+                                smooth={true}
+                                duraction={500}
+                                spy={true}
+                                exact='true'
+                                offset={-20}
+                                >Projects</NavLinks>
                         </NavItem>
                         <NavItem>
-                            <NavLinks href='#skills'>Skills</NavLinks>
+                            <NavLinks 
+                                to='skills'
+                                smooth={true}
+                                duraction={500}
+                                spy={true}
+                                exact='true'
+                                offset={-150}
+                                >Skills</NavLinks>
                         </NavItem>
                         <NavItem>
-                            <NavLinks href='#contact'>Contact</NavLinks>
+                            <NavLinks 
+                                to='contact'
+                                smooth={true}
+                                duraction={500}
+                                spy={true}
+                                exact='true'
+                                offset={60}
+                                >Contact</NavLinks>
                         </NavItem>
                     </NavMenu>
                 </NavbarContainer>
