@@ -16,7 +16,7 @@ import express from '../../images/icons/express.png';
 const SkillSection = () => {
     return (
         <>
-        <Header>My Skills</Header>
+        <Header id="skills">My Skills</Header>
             <SkillContainer>
                 <SkillContent>
                     <SkillCard>

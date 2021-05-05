@@ -8,7 +8,7 @@ import workoutapp   from '../../images/workoutapp.png';
 const MainSection = () => {
     return (
         <>
-        <Header>Projects</Header>
+        <Header id="projects">Projects</Header>
             <MainContainer>
                 <MainContent>
                         <MainCard>

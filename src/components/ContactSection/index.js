@@ -9,7 +9,7 @@ import {FaLinkedin} from 'react-icons/fa'
 const ContactSection = () => {
     return (
         <>
-            <ContactFirstContainer>
+            <ContactFirstContainer id="contact">
                 <FirstWrap>
                     <SectionHeader>Get In Touch!</SectionHeader>
                     <Description>Feel free to reach out to me through my email, LinkedIn, or my Github page if you have any questions.</Description>

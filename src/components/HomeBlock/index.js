@@ -3,7 +3,7 @@ import {HomeContainer, HomeBackground, HomeContent, Homeh1, Homeh3} from './Home
 
 const HomeBlock = () => {
     return (
-        <HomeContainer>
+        <HomeContainer id="home">
             <HomeBackground>
                 <HomeContent>
                     <Homeh1>Hello, welcome to my webpage!</Homeh1>

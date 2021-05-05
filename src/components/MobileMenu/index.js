@@ -9,10 +9,10 @@ const MobileMenu = ({ isOpen, toggle }) => {
             </Icon>
             <MobileWrapper>
                 <MMenu>
-                    <MobileMenuLink to='home' onClick={toggle}>Home</MobileMenuLink>
-                    <MobileMenuLink to='projects' onClick={toggle}>Projects</MobileMenuLink>
-                    <MobileMenuLink to='skills' onClick={toggle}>Skills</MobileMenuLink>
-                    <MobileMenuLink to='contact' onClick={toggle}>Contact</MobileMenuLink>                    
+                    <MobileMenuLink href='/' onClick={toggle}>Home</MobileMenuLink>
+                    <MobileMenuLink to='#projects' onClick={toggle}>Projects</MobileMenuLink>
+                    <MobileMenuLink to='#skills' onClick={toggle}>Skills</MobileMenuLink>
+                    <MobileMenuLink href='#contact' onClick={toggle}>Contact</MobileMenuLink>                    
                 </MMenu>
             </MobileWrapper>
         </MobileMenuContainer>

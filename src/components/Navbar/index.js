@@ -1,5 +1,6 @@
 import React from 'react';
-import {FaBars} from 'react-icons/fa'
+import {FaBars} from 'react-icons/fa';
+import {animateScroll as scroll } from 'react-scroll';
 import {
     Nav, 
     NavbarContainer, 
@@ -9,28 +10,36 @@ import {
     NavItem, 
     NavLinks
 } from './NavbarElements';
+import home from '../HomeBlock'
+import { scrollToTop } from 'react-scroll/modules/mixins/animate-scroll';
+
 
 const Navbar = ({ toggle }) => {
+
+    const toggleHome = () =>{
+        scroll.scrollToTop();
+    }
+    
     return (
         <>
             <Nav>
                 <NavbarContainer>
-                    <NavLogo to='/'>Catherine Milano</NavLogo>
+                    <NavLogo to='/home' onClick={toggleHome}>Catherine Milano</NavLogo>
                     <MobileIcon onClick={toggle}>
                         <FaBars />
                     </MobileIcon>
                     <NavMenu>
                         <NavItem>
-                            <NavLinks to='home'>Home</NavLinks>
+                            <NavLinks href='/'>Home</NavLinks>
                         </NavItem>
                         <NavItem>
-                            <NavLinks to='projects'>Projects</NavLinks>
+                            <NavLinks href='#projects'>Projects</NavLinks>
                         </NavItem>
                         <NavItem>
-                            <NavLinks to='skills'>Skills</NavLinks>
+                            <NavLinks href='#skills'>Skills</NavLinks>
                         </NavItem>
                         <NavItem>
-                            <NavLinks to='contact'>Contact</NavLinks>
+                            <NavLinks href='#contact'>Contact</NavLinks>
                         </NavItem>
                     </NavMenu>
                 </NavbarContainer>
