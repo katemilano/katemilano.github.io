@@ -6,9 +6,9 @@ export const HomeContainer = styled.div`
     justify-content: center;
     align-items: center;
     padding: 0 30px;
-    height: 620px;
+    height: 650px;
     position: relative;
-    z-index: 1;
+    z-index: 2;
 
 `;
 

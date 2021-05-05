@@ -4,6 +4,7 @@ import Navbar from '../components/Navbar'
 import HomeBlock from '../components/HomeBlock'
 import MainSection from '../components/MainSection'
 import SkillSection from '../components/SkillSection'
+import ContactSection from '../components/ContactSection'
 
 const Home = () => {
     const [isOpen, setIsOpen] = useState(false)
@@ -18,6 +19,7 @@ const Home = () => {
             <HomeBlock />
             <MainSection />
             <SkillSection />
+            <ContactSection/>
         </>
     )
 }

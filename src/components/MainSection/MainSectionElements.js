@@ -6,9 +6,9 @@ export const MainContainer = styled.div`
     justify-content: center;
     align-items: center;
     padding: 0 30px;
-    height: 800px;
+    height: 600px;
     position: relative;
-    z-index: 1;
+    z-index: 3;
     margin-bottom: -150px;
 
     @media screen and (max-width: 960px){
@@ -22,12 +22,15 @@ export const MainContainer = styled.div`
 `;
 
 export const Header = styled.h1`
-    font-size: 60px;
+    font-size: 200%;
     text-align: center;
-    color: #ffffc2;
-    background-color: #c4ebf1;
-    padding-top: 30px;
-    padding-bottom: 20px;
+    color: darkgrey;
+    background-color: white;
+    padding-top: 100px;
+    padding-bottom: 10px;
+    margin-top: 30px;
+    margin-bottom: 120px;
+    z-index: 1;
 
     @media screen and (max-width: 960px){
         padding-bottom: 300px;
@@ -53,8 +56,7 @@ export const MainContent = styled.div`
     grid-template-columns: repeat(3, 1fr);
     grid-auto-rows: auto;
     grid-gap: 1rem;
-    margin-top: -100px;
-
+    margin-top: -200px;
 
     @media screen and (max-width: 960px){
         grid-template-columns: repeat(2, 1fr);
@@ -90,7 +92,6 @@ export const MainCardContent = styled.div`
     text-align: center;
     transition: transform 0.8s;
     transform-style: preserve-3d;
-    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);  
 
     &:hover{
         transform: rotateY(180deg);
@@ -105,6 +106,8 @@ export const CardFront = styled.div`
     height: 100%;
     -webkit-backface-visibility: hidden; 
     backface-visibility: hidden;
+    box-shadow: 10px 10px 5px grey;
+
 `;
 
 export const CardBack = styled.div`
