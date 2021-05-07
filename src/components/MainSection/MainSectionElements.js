@@ -25,7 +25,7 @@ export const Header = styled.h1`
     font-size: 200%;
     text-align: center;
     color: darkgrey;
-    background-color: white;
+    background-color: transparent;
     padding-top: 100px;
     padding-bottom: 10px;
     margin-top: 30px;
@@ -74,10 +74,8 @@ export const MainContent = styled.div`
 `;
 
 export const MainCard = styled.div`
-    background-color: transparent;
     width: 300px;
     height: 300px;
-    border: 1px solid #f1f1f1;
     perspective: 1000px
 
     &:hover{
@@ -111,7 +109,6 @@ export const CardFront = styled.div`
 `;
 
 export const CardBack = styled.div`
-    background-color: white;
     width: 45px;
     height: 45px;
     transform: rotateY(180deg);

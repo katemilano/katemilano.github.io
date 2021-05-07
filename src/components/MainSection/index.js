@@ -1,9 +1,11 @@
 import React from 'react'
 import {MainContainer, MainContent, MainCard, MainCardContent, CardFront, CardBack, CardTitle, CardBody, Header} from './MainSectionElements'
-import pic from '../../images/image.png';
-import locationhub from '../../images/locationhub.png';
-import workoutapp   from '../../images/workoutapp.png';
-
+import nightsin from '../../images/portfolio/image.png';
+import locationhub from '../../images/portfolio/locationhub.png';
+import workoutapp   from '../../images/portfolio/workoutapp.png';
+import burger from '../../images/portfolio/burger.png';
+import codequiz from '../../images/portfolio/codequiz.png';
+import weatherdashboard from '../../images/portfolio/weatherdashboard.png'
 
 const MainSection = () => {
     return (
@@ -14,7 +16,7 @@ const MainSection = () => {
                         <MainCard>
                             <MainCardContent>
                                 <CardFront>
-                                    <img src={pic} alt="project1" height={300} width={300}/>
+                                    <img src={nightsin} alt="nightsin" height={300} width={300}/>
                                 </CardFront>
                                 <CardBack>
                                     <CardTitle>Project 1</CardTitle>
@@ -25,7 +27,7 @@ const MainSection = () => {
                         <MainCard>
                             <MainCardContent>
                                 <CardFront>
-                                    <img src={locationhub} alt="project1" height={300} width={300}/>
+                                    <img src={locationhub} alt="locationhub" height={300} width={300}/>
                                 </CardFront>
                                 <CardBack>
                                     <CardTitle>Project 1</CardTitle>
@@ -36,7 +38,7 @@ const MainSection = () => {
                         <MainCard>
                             <MainCardContent>
                                 <CardFront>
-                                    <img src={workoutapp} alt="project1" height={300} width={300}/>
+                                    <img src={workoutapp} alt="workoutapp" height={300} width={300}/>
                                 </CardFront>
                                 <CardBack>
                                     <CardTitle>Project 1</CardTitle>
@@ -47,7 +49,7 @@ const MainSection = () => {
                         <MainCard>
                             <MainCardContent>
                                 <CardFront>
-                                    <img src={pic} alt="project1" height={300} width={300}/>
+                                    <img src={burger} alt="burger" height={300} width={300}/>
                                 </CardFront>
                                 <CardBack>
                                     <CardTitle>Project 1</CardTitle>
@@ -58,7 +60,7 @@ const MainSection = () => {
                         <MainCard>
                             <MainCardContent>
                                 <CardFront>
-                                    <img src={pic} alt="project1" height={300} width={300}/>
+                                    <img src={codequiz} alt="codequiz" height={300} width={300}/>
                                 </CardFront>
                                 <CardBack>
                                     <CardTitle>Project 1</CardTitle>
@@ -69,7 +71,7 @@ const MainSection = () => {
                         <MainCard>
                             <MainCardContent>
                                 <CardFront>
-                                    <img src={pic} alt="project1" height={300} width={300}/>
+                                    <img src={weatherdashboard} alt="weatherdashboard" height={300} width={300}/>
                                 </CardFront>
                                 <CardBack>
                                     <CardTitle>Project 1</CardTitle>
