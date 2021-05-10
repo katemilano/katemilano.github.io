@@ -8,7 +8,7 @@ export const ContactFirstContainer = styled.div`
     justify-content: center;
     align-items: center;
     padding: 0 30px;
-    height: 400px;
+    height: 380px;
     position: relative;
     z-index: 3;
 
@@ -46,7 +46,6 @@ export const FirstWrap = styled.div`
     height: 100px;
     width: 500px;
     
-    
 `;
 
 export const SecondWrap = styled.div`
@@ -58,10 +57,12 @@ export const SecondWrap = styled.div`
 
 export const SectionHeader = styled.h3`
     margin-left: 50px;
-    font-size: 400%;
+    font-size: 380%;
     color: white;
-    margin-top: 0;
+    margin-top: -50px;
     color: white;
+    font-family: 'Montserrat Subrayada', sans-serif;
+    margin-bottom: 100px;
 
 `;
 
@@ -69,14 +70,14 @@ export const ImageContainer = styled.div`
     height: 300px;
     width: 300px;
     background-color: white;
-    margin-top: 130px;
+    margin-top: 50px;
     z-index: 1;
-    margin-left: 180px;
+    margin-left: 30px;
     
 `;
 
 export const IconList = styled.ul`
-    margin-top: 70px;
+    margin-top: 50px;
     margin-left: 20px;
     display: grid;
     grid-template-columns: 1fr;
@@ -89,14 +90,22 @@ export const IconList = styled.ul`
     }
 `;
 
-export const Description = styled.p`
-    font-size: 20px;
-    color: black;
-    margin-right: 50px;
-    font-style: italic;
-    margin-left: 15%;
-    margin-top: -10%;
-    // line-height: 1.8;
+export const Icons = styled.li` 
+    margin-left: -25px;
+    color: transparent;
 
+    @media screen and (max-width: 480px){
+        grid-template-rows: repeat(6, 60px);
+    }
+`;
+
+export const Description = styled.p`
+    font-size: 24px;
+    color: black;
+    margin-right: 22%;
+    font-style: italic;
+    margin-left: 12%;
+    margin-top: -15%;
+    // line-height: 1.8;
     font-family: 'Zilla Slab Highlight', cursive;
     `;

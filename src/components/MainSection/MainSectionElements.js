@@ -14,11 +14,8 @@ export const Wrapper2 = styled.div`
 `;
 
 export const MainContainer = styled.div`
-    background-image: url("../../images/pink1.png");    
+    background-color: black;    
     display: flex;
-    background-repeat: no-repeat;
-    background-position: center; 
-    background-size: cover;
     justify-content: center;
     align-items: center;
     padding: 0 30px;
@@ -40,7 +37,7 @@ export const MainContainer = styled.div`
 `;
 
 export const Header = styled.h1`
-    font-size: 400%;
+    font-size: 300%;
     text-align: center;
     color: #DCE3AA;
     background-color: transparent;
@@ -48,6 +45,8 @@ export const Header = styled.h1`
     padding-bottom: 10px;
     margin-bottom: 120px;
     z-index: 1;
+    font-family: 'Montserrat Subrayada', sans-serif;
+
 
     @media screen and (max-width: 960px){
         padding-bottom: 300px;

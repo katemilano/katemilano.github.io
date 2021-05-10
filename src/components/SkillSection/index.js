@@ -20,51 +20,51 @@ const SkillSection = () => {
             <SkillContainer>
                 <SkillContent>
                     <SkillCard>
-                        <img src={html} alt="htmlicon" height={80} width={80}/>
+                        <img src={html} alt="htmlicon" height={60} width={60}/>
                         <Label>HTML5</Label>
                     </SkillCard>
                     <SkillCard>
-                        <img src={css} alt="cssicon" height={72} width={70} style={{marginTop: '5px'}} />
+                        <img src={css} alt="cssicon" height={52} width={50} style={{marginTop: '5px'}} />
                         <Label>CSS3</Label>
                     </SkillCard>
                     <SkillCard>
-                        <img src={js} alt="javascripticon" height={80} width={80}/>
+                        <img src={js} alt="javascripticon" height={60} width={60}/>
                         <Label>JavaScript</Label>
                     </SkillCard>
                     <SkillCard>
-                        <img src={jquery} alt="jqueryicon" height={80} width={80}/>
+                        <img src={jquery} alt="jqueryicon" height={60} width={60}/>
                         <Label>jQuery</Label>
                     </SkillCard>
                     <SkillCard>
-                        <img src={react} alt="reacticon" height={80} width={100} style={{marginLeft: '-10px'}}/>
+                        <img src={react} alt="reacticon" height={60} width={80} style={{marginLeft: '-10px'}}/>
                         <Label>ReactJS</Label>
                     </SkillCard>
                     <SkillCard>
-                        <img src={apis} alt="apiicon" height={80} width={100} style={{marginLeft: '-20px'}}/>
+                        <img src={apis} alt="apiicon" height={60} width={80} style={{marginLeft: '-20px'}}/>
                         <Label>APIs</Label>
                     </SkillCard>
                     <SkillCard>
-                        <img src={json} alt="jsonicon" height={80} width={80}/>
+                        <img src={json} alt="jsonicon" height={60} width={60}/>
                         <Label>JSON</Label>
                     </SkillCard>
                     <SkillCard>
-                        <img src={ajax} alt="ajaxicon" height={80} width={80}/>
+                        <img src={ajax} alt="ajaxicon" height={60} width={60}/>
                         <Label>AJAX</Label>
                     </SkillCard>
                     <SkillCard>
-                        <img src={nodejs} alt="nodejsicon" height={80} width={80}/>
+                        <img src={nodejs} alt="nodejsicon" height={60} width={60}/>
                         <Label>NodeJS</Label>
                     </SkillCard>
                     <SkillCard>
-                        <img src={mysql} alt="mysqlicon" height={80} width={80}/>
+                        <img src={mysql} alt="mysqlicon" height={60} width={60}/>
                         <Label>MySQL</Label>
                     </SkillCard>
                     <SkillCard>
-                        <img src={mongodb} alt="MongoDBicon" height={80} width={80}/>
+                        <img src={mongodb} alt="MongoDBicon" height={60} width={60}/>
                         <Label>MongoDB</Label>
                     </SkillCard>
                     <SkillCard>
-                        <img src={express} alt="Expressicon" height={80} width={130} style={{marginLeft: '-25px'}}/>
+                        <img src={express} alt="Expressicon" height={60} width={110} style={{marginLeft: '-25px'}}/>
                         <Label>Express</Label>
                     </SkillCard>    
                 </SkillContent>

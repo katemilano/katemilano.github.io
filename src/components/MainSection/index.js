@@ -6,7 +6,7 @@ import workoutapp   from '../../images/portfolio/workoutapp.png';
 import burger from '../../images/portfolio/burger.png';
 import codequiz from '../../images/portfolio/codequiz.png';
 import weatherdashboard from '../../images/portfolio/weatherdashboard.png'
-import pink2 from '../../images/pink2.png';
+import pink3 from '../../images/pink3.png';
 
 
 const MainSection = () => {
@@ -18,7 +18,7 @@ const MainSection = () => {
         </Wrapper1>
         <Wrapper2>
 
-            <MainContainer style={{backgroundImage: `url(${pink2})`}}>
+            <MainContainer style={{backgroundImage: `url(${pink3})`}}>
                     <MainContent>
                             <MainCard>
                                 <MainCardContent>

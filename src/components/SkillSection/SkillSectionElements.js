@@ -22,11 +22,13 @@ export const SkillContainer = styled.div`
 `;
 
 export const Header = styled.h1`
-    font-size: 400%;
+    font-size: 300%;
     text-align: center;
     color: #FD4B54;
     padding-top: 60px;
     margin-top: 800px;
+    font-family: 'Montserrat Subrayada', sans-serif;
+
 
     @media screen and (max-width: 960px){
         margin-top: -550px;
@@ -71,13 +73,12 @@ export const SkillContent = styled.div`
 
 export const SkillCard = styled.div`
     background-color: transparent;
-    width: 80px;
-    height: 80px;
+    width: 60px;
+    height: 60px;
     border: 1px solid #f1f1f1;
     perspective: 1000px
-    margin: 500px;
+    margin: 400px;
     border:none;
-    margin-top: 30px;
     box-shadow: 5px 5px 2.5px lightgrey;
 `;
 
