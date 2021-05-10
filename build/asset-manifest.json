@@ -1,0 +1,38 @@
+{
+  "files": {
+    "main.css": "/static/css/main.67777fc5.chunk.css",
+    "main.js": "/static/js/main.c44e2606.chunk.js",
+    "main.js.map": "/static/js/main.c44e2606.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.a0841f36.js",
+    "runtime-main.js.map": "/static/js/runtime-main.a0841f36.js.map",
+    "static/js/2.f4678a37.chunk.js": "/static/js/2.f4678a37.chunk.js",
+    "static/js/2.f4678a37.chunk.js.map": "/static/js/2.f4678a37.chunk.js.map",
+    "index.html": "/index.html",
+    "static/css/main.67777fc5.chunk.css.map": "/static/css/main.67777fc5.chunk.css.map",
+    "static/js/2.f4678a37.chunk.js.LICENSE.txt": "/static/js/2.f4678a37.chunk.js.LICENSE.txt",
+    "static/media/ajax.a8ab9db8.png": "/static/media/ajax.a8ab9db8.png",
+    "static/media/api.e21ada4c.png": "/static/media/api.e21ada4c.png",
+    "static/media/burger.c1303243.png": "/static/media/burger.c1303243.png",
+    "static/media/codequiz.a0391d8d.png": "/static/media/codequiz.a0391d8d.png",
+    "static/media/css.1c878bad.webp": "/static/media/css.1c878bad.webp",
+    "static/media/express.04e4743f.png": "/static/media/express.04e4743f.png",
+    "static/media/html.397540de.png": "/static/media/html.397540de.png",
+    "static/media/image.334c219e.png": "/static/media/image.334c219e.png",
+    "static/media/jquery.e3810886.png": "/static/media/jquery.e3810886.png",
+    "static/media/json.6994df2c.png": "/static/media/json.6994df2c.png",
+    "static/media/locationhub.5998b190.png": "/static/media/locationhub.5998b190.png",
+    "static/media/mongodb.41634622.png": "/static/media/mongodb.41634622.png",
+    "static/media/mysql.ddd2c1c9.png": "/static/media/mysql.ddd2c1c9.png",
+    "static/media/nodejs.cd0aa57b.webp": "/static/media/nodejs.cd0aa57b.webp",
+    "static/media/profilepic.6ff57455.jpg": "/static/media/profilepic.6ff57455.jpg",
+    "static/media/react.93a4bdf1.png": "/static/media/react.93a4bdf1.png",
+    "static/media/weatherdashboard.232eab4e.png": "/static/media/weatherdashboard.232eab4e.png",
+    "static/media/workoutapp.a3804966.png": "/static/media/workoutapp.a3804966.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.a0841f36.js",
+    "static/js/2.f4678a37.chunk.js",
+    "static/css/main.67777fc5.chunk.css",
+    "static/js/main.c44e2606.chunk.js"
+  ]
+}

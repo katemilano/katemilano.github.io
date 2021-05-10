@@ -1,15 +1,30 @@
 import styled from 'styled-components';
 
+export const Wrapper1 = styled.div`
+    float: left;
+    width: 30%;
+    height: 100px;
+`;
+
+export const Wrapper2 = styled.div`
+    margin-top: 10%;
+    float: right;
+    width: 65%;
+    height: 100px;
+`;
+
 export const MainContainer = styled.div`
-    background: #c4ebf1;
+    background: black;
     display: flex;
     justify-content: center;
     align-items: center;
     padding: 0 30px;
-    height: 600px;
+    height: 560px;
     position: relative;
     z-index: 3;
     margin-bottom: -150px;
+    margin-top: 30px;
+    width: 750px;
 
     @media screen and (max-width: 960px){
         margin-bottom: 600px;
@@ -22,13 +37,12 @@ export const MainContainer = styled.div`
 `;
 
 export const Header = styled.h1`
-    font-size: 200%;
+    font-size: 400%;
     text-align: center;
-    color: darkgrey;
+    color: #DCE3AA;
     background-color: transparent;
-    padding-top: 100px;
+    padding-top: 30px;
     padding-bottom: 10px;
-    margin-top: 30px;
     margin-bottom: 120px;
     z-index: 1;
 
@@ -52,11 +66,11 @@ export const MainContent = styled.div`
     margin-left: 10px;
     margin-right: 10px;
     margin-bottom: 10px;
+    margin-top: 30px;
     display: grid;
-    grid-template-columns: repeat(3, 1fr);
+    grid-template-columns: repeat(3, .5fr);
     grid-auto-rows: auto;
-    grid-gap: 1rem;
-    margin-top: -200px;
+    grid-gap: .2rem;
 
     @media screen and (max-width: 960px){
         grid-template-columns: repeat(2, 1fr);
@@ -74,8 +88,8 @@ export const MainContent = styled.div`
 `;
 
 export const MainCard = styled.div`
-    width: 300px;
-    height: 300px;
+    width: 250px;
+    height: 250px;
     perspective: 1000px
 
     &:hover{
@@ -90,41 +104,17 @@ export const MainCardContent = styled.div`
     text-align: center;
     transition: transform 0.8s;
     transform-style: preserve-3d;
-
-    &:hover{
-        transform: rotateY(180deg);
-    }
 `;
 
 export const CardFront = styled.div`
-    background-color: #bbb;
+    background-color: transparent;
     color: black;
     position: absolute;
     width: 100%;
     height: 100%;
     -webkit-backface-visibility: hidden; 
     backface-visibility: hidden;
-    box-shadow: 10px 10px 5px grey;
-
 `;
 
-export const CardBack = styled.div`
-    width: 45px;
-    height: 45px;
-    transform: rotateY(180deg);
-    position: absolute;
-    width: 100%;
-    height: 100%;
-    -webkit-backface-visibility: hidden;
-    backface-visibility: hidden;
-`;
 
-export const CardTitle = styled.h2`
-    color: blue;
-    font-size: 30px;
-`;
 
-export const CardBody = styled.h2`
-    color: black;
-    font-size: 20px;
-`;

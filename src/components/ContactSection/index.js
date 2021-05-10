@@ -12,7 +12,7 @@ const ContactSection = () => {
             <ContactFirstContainer id="contact">
                 <FirstWrap>
                     <SectionHeader>Get In Touch!</SectionHeader>
-                    <Description>Feel free to reach out to me through my email, LinkedIn, or my Github page if you have any questions.</Description>
+                    <Description>Have questions? Feel free to reach out to me through my email, LinkedIn, or my Github page.</Description>
                     <IconList>
                         <FaEnvelope style={{color: 'white'}} size={35}/>
                         <FaGithub style={{color: 'white'}} size={35}/>

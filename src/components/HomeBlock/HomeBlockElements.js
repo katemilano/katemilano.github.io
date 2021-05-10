@@ -1,7 +1,7 @@
 import styled from 'styled-components';
 
 export const HomeContainer = styled.div`
-    background: white;
+    background: black;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -9,6 +9,7 @@ export const HomeContainer = styled.div`
     height: 650px;
     position: relative;
     z-index: 2;
+    
 
 `;
 
@@ -30,14 +31,13 @@ export const HomeContent = styled.div`
     padding: 8px 24px;
     display: flex;
     flex-direction: column;
-    align-items: center;
+    
 `;
 
 export const Homeh1 = styled.h1`
     font-size: 48px;
     color: #ffd301;
     text-align: center;
-    margin-top: 40%;
 
     @media screen and (max-width: 768px){
         font-size: 40px;

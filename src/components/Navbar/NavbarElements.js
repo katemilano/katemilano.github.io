@@ -3,7 +3,7 @@ import { Link as LinkRouter } from 'react-router-dom';
 import { Link as LinkScroll } from 'react-scroll';
 
 export const Nav = styled.nav`
-    background: #add8e5;
+    background: black;
     height: 80px;
     justify-content: center;
     font-size: 1rem;
@@ -25,7 +25,7 @@ export const NavbarContainer = styled.div`
     width: 100%;
     padding: 0 24px;
     max-width: 1100px;
-    background-color: #add8e5;
+    background-color: black;
 `;
 export const NavLogo = styled(LinkRouter)`
     color: white;

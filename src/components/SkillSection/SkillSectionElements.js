@@ -22,11 +22,11 @@ export const SkillContainer = styled.div`
 `;
 
 export const Header = styled.h1`
-    font-size: 200%;
+    font-size: 400%;
     text-align: center;
-    color: pink;
+    color: #FD4B54;
     padding-top: 60px;
-    margin-top: 150px;
+    margin-top: 800px;
 
     @media screen and (max-width: 960px){
         margin-top: -550px;
