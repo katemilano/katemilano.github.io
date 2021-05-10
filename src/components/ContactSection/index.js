@@ -14,9 +14,9 @@ const ContactSection = () => {
                     <SectionHeader>Get In Touch!</SectionHeader>
                     <Description>Have questions? Feel free to reach out to me through my email, LinkedIn, or my Github page.</Description>
                     <IconList>
-                        <FaEnvelope style={{color: 'white'}} size={35}/>
-                        <FaGithub style={{color: 'white'}} size={35}/>
-                        <FaLinkedin style={{color: 'white'}} size={35}/>
+                        <FaEnvelope style={{color: '#DCE3AA', marginBottom: "50px"}} size={35}/>
+                        <FaGithub style={{color: '#A4D7CE', marginBottom: "50px"}} size={35}/>
+                        <FaLinkedin style={{color: '#FD4B54', marginBottom: "30px"}} size={35}/>
                     </IconList>
                 </FirstWrap>
 

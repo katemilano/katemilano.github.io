@@ -9,8 +9,11 @@ export const HomeContainer = styled.div`
     height: 650px;
     position: relative;
     z-index: 2;
-    
 
+`;
+
+export const WrapText = styled.div`
+    text-align: left;
 `;
 
 export const HomeBackground = styled.div`
@@ -35,10 +38,13 @@ export const HomeContent = styled.div`
 `;
 
 export const Homeh1 = styled.h1`
-    font-size: 48px;
-    color: #ffd301;
-    text-align: center;
-
+    font-size: 55px;
+    color: white;
+    text-align: left;
+    margin-top: -2%;
+    margin-left: 27%;
+    margin-bottom: 10px;
+    font-family: 'Farro', sans-serif;
     @media screen and (max-width: 768px){
         font-size: 40px;
     }
@@ -49,6 +55,10 @@ export const Homeh1 = styled.h1`
 `;
 
 export const Homeh3 = styled.h3`
-    font-size: 24px;
+    font-family: 'Farro', sans-serif;
     color: #89c7e7;
+    margin-left: 27%;
+    margin-right: 25%;
+    text-align: left;
+    margin-top: 0;
 `;

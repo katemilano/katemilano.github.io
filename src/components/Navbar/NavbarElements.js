@@ -38,12 +38,13 @@ export const NavLogo = styled(LinkRouter)`
     font-weight: bold;
     text-decoration: none;
     margin-top: 22px;
+    font-family: 'Major Mono Display', monospace;
+
 `;
 
 export const MobileIcon = styled.div`
     display: none;
     color: white;
-
     @media screen and (max-width: 768px) {
         display:block;
         position:absolute;
@@ -64,7 +65,6 @@ export const NavMenu = styled.ul`
     text-align: center;
     margin-top: 55px;
     margin-right: 20px;
-    
     @media screen and (max-width: 768px) {
         display: none;
     }
@@ -82,6 +82,8 @@ export const NavLinks = styled(LinkScroll)`
     padding: 0 1rem;
     height: 100%;
     cursor: pointer:
+    font-family: 'Mukta Mahee', sans-serif;    
+
 
     &.active{
         border-bottom: 3px solid #01bf71;
