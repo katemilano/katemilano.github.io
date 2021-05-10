@@ -1,7 +1,9 @@
 import styled from 'styled-components';
 
 export const ContactFirstContainer = styled.div`
-    background: black;
+    background-repeat: no-repeat;
+    background-position: center; 
+    background-size: cover;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -59,7 +61,7 @@ export const SectionHeader = styled.h3`
     font-size: 400%;
     color: white;
     margin-top: 0;
-    color: #A4D7CE;
+    color: white;
 
 `;
 
@@ -80,6 +82,7 @@ export const IconList = styled.ul`
     grid-template-columns: 1fr;
     grid-template-rows: repeat(6, 80px);
     text-align: center; 
+    
 
     @media screen and (max-width: 480px){
         grid-template-rows: repeat(6, 60px);
@@ -88,10 +91,12 @@ export const IconList = styled.ul`
 
 export const Description = styled.p`
     font-size: 20px;
-    color: #E5A0B1;
+    color: black;
     margin-right: 50px;
     font-style: italic;
-    margin-left: 10%;
+    margin-left: 15%;
     margin-top: -10%;
-    line-height: 1.8;
+    // line-height: 1.8;
+
+    font-family: 'Zilla Slab Highlight', cursive;
     `;

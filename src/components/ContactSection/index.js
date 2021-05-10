@@ -4,12 +4,13 @@ import profilepic from '../../images/profilepic.jpg'
 import {FaEnvelope} from 'react-icons/fa'
 import {FaGithub} from 'react-icons/fa'
 import {FaLinkedin} from 'react-icons/fa'
+import Pink2 from '../../images/pink1.png';
 
 
 const ContactSection = () => {
     return (
         <>
-            <ContactFirstContainer id="contact">
+            <ContactFirstContainer id="contact" style={{backgroundImage: `url(${Pink2})`}}>
                 <FirstWrap>
                     <SectionHeader>Get In Touch!</SectionHeader>
                     <Description>Have questions? Feel free to reach out to me through my email, LinkedIn, or my Github page.</Description>

@@ -14,8 +14,11 @@ export const Wrapper2 = styled.div`
 `;
 
 export const MainContainer = styled.div`
-    background: black;
+    background-image: url("../../images/pink1.png");    
     display: flex;
+    background-repeat: no-repeat;
+    background-position: center; 
+    background-size: cover;
     justify-content: center;
     align-items: center;
     padding: 0 30px;

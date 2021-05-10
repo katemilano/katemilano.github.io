@@ -6,6 +6,8 @@ import workoutapp   from '../../images/portfolio/workoutapp.png';
 import burger from '../../images/portfolio/burger.png';
 import codequiz from '../../images/portfolio/codequiz.png';
 import weatherdashboard from '../../images/portfolio/weatherdashboard.png'
+import pink2 from '../../images/pink2.png';
+
 
 const MainSection = () => {
     return (
@@ -16,7 +18,7 @@ const MainSection = () => {
         </Wrapper1>
         <Wrapper2>
 
-            <MainContainer>
+            <MainContainer style={{backgroundImage: `url(${pink2})`}}>
                     <MainContent>
                             <MainCard>
                                 <MainCardContent>

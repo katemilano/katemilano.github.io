@@ -6,14 +6,16 @@ export const HomeContainer = styled.div`
     justify-content: center;
     align-items: center;
     padding: 0 30px;
-    height: 650px;
+    height: 800px;
     position: relative;
-    z-index: 2;
+    z-index: 1;
 
 `;
 
 export const WrapText = styled.div`
     text-align: left;
+    z-index: 99;
+
 `;
 
 export const HomeBackground = styled.div`
@@ -27,6 +29,14 @@ export const HomeBackground = styled.div`
     overflow: hidden;
 `;
 
+export const VideoBg = styled.video`
+    width: 100%;
+    height: 100%;
+    -o-object-fit: cover;
+    object-fit: cover;
+    background: black;
+`;
+
 export const HomeContent = styled.div`
     z-index: 3;
     max-width: 1200px;
@@ -34,17 +44,16 @@ export const HomeContent = styled.div`
     padding: 8px 24px;
     display: flex;
     flex-direction: column;
-    
 `;
 
 export const Homeh1 = styled.h1`
+    margin-top: 50px;
     font-size: 55px;
     color: white;
     text-align: left;
-    margin-top: -2%;
-    margin-left: 27%;
+    margin-left: 20%;
     margin-bottom: 10px;
-    font-family: 'Farro', sans-serif;
+    font-family: 'Montserrat Subrayada', sans-serif;
     @media screen and (max-width: 768px){
         font-size: 40px;
     }
@@ -55,10 +64,13 @@ export const Homeh1 = styled.h1`
 `;
 
 export const Homeh3 = styled.h3`
-    font-family: 'Farro', sans-serif;
-    color: #89c7e7;
-    margin-left: 27%;
-    margin-right: 25%;
+    // font-family: 'Farro', sans-serif;
+    font-family: 'Zilla Slab Highlight', cursive;
+    color: black;
+    margin-left: 20%;
+    margin-right: 15%;
     text-align: left;
-    margin-top: 0;
+    margin-top: 24px;
+    font-size: 32px;
 `;
+
