@@ -57,12 +57,12 @@ export const SecondWrap = styled.div`
 
 export const SectionHeader = styled.h3`
     margin-left: 50px;
-    font-size: 380%;
+    font-size: 400%;
     color: white;
     margin-top: -50px;
     color: white;
     font-family: 'Montserrat Subrayada', sans-serif;
-    margin-bottom: 100px;
+    margin-bottom: 80px;
 
 `;
 
@@ -77,8 +77,8 @@ export const ImageContainer = styled.div`
 `;
 
 export const IconList = styled.ul`
-    margin-top: 50px;
-    margin-left: 20px;
+    margin-top: 10px;
+    margin-left: 50px;
     display: grid;
     grid-template-columns: 1fr;
     grid-template-rows: repeat(6, 80px);
@@ -100,12 +100,12 @@ export const Icons = styled.li`
 `;
 
 export const Description = styled.p`
-    font-size: 24px;
-    color: black;
-    margin-right: 22%;
+    font-size: 22px;
+    color: white;
+    margin-right: 20%;
     font-style: italic;
     margin-left: 12%;
-    margin-top: -15%;
-    // line-height: 1.8;
-    font-family: 'Zilla Slab Highlight', cursive;
-    `;
+    margin-top: -12%;
+    line-height: 1.8;
+    font-family: 'Farro', sans-serif;
+`;

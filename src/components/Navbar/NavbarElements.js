@@ -4,7 +4,7 @@ import { Link as LinkScroll } from 'react-scroll';
 
 export const Nav = styled.nav`
     background: black;
-    height: 80px;
+    height: 90px;
     justify-content: center;
     font-size: 1rem;
     display: flex;
@@ -37,9 +37,9 @@ export const NavLogo = styled(LinkRouter)`
     margin-left: 24px;
     font-weight: bold;
     text-decoration: none;
-    margin-top: 22px;
-    // font-family: 'Major Mono Display', monospace;
-    font-family: 'Righteous', cursive;
+    margin-top: 30px;
+    font-family: 'Major Mono Display', monospace;
+    // font-family: 'Sen', sans-serif;
     
 `;
 
@@ -54,7 +54,7 @@ export const MobileIcon = styled.div`
         transform: translate (-100%, 60%);
         font-size: 1.8rem;
         cursor: pointer;
-        margin-top: 22px;
+        margin-top: 35px;
         margin-right: 35px;
     }
 `;
@@ -72,7 +72,7 @@ export const NavMenu = styled.ul`
 `;
 
 export const NavItem = styled.li`
-    height: 80px;
+    height: 50px;
     font-family: 'Montserrat Subrayada', sans-serif;
 `;
 
@@ -86,8 +86,9 @@ export const NavLinks = styled(LinkScroll)`
     cursor: pointer:
     font-family: 'Mukta Mahee', sans-serif;    
 
-
     &.active{
-        border-bottom: 3px solid #01bf71;
+        padding-bottom: none;
+        margin-bottom: none;
+        border-bottom: 6px solid #DCE3AA;
     }
 `;

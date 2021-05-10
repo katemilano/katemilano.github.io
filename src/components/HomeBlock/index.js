@@ -10,7 +10,7 @@ const HomeBlock = () => {
             </HomeBackground>
 
             <HomeContent>
-                <Homeh1 style={{marginRight: "500px", fontSize:"80px", fontFamily: " 'Righteous', cursive"}}>Hello, </Homeh1>
+                <Homeh1 style={{marginRight: "500px", fontSize:"100px", fontFamily: " 'Sen', sans-serif"}}>Hello, </Homeh1>
                 <Homeh1 style={{marginTop: "0px"}}>Welcome to my webpage.</Homeh1>
                 <Homeh3>
                     Software Engineer with Bachelors of Science in Engineering and Bootcamp certified in coding. Looking to apply my problem solving skills and excited to continue my passion for coding and my endless journey of learning more about new technology.

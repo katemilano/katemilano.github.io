@@ -68,7 +68,7 @@ export const Homeh3 = styled.h3`
     font-family: 'Zilla Slab Highlight', cursive;
     color: black;
     margin-left: 20%;
-    margin-right: 15%;
+    margin-right: 3%;
     text-align: left;
     margin-top: 24px;
     font-size: 32px;
