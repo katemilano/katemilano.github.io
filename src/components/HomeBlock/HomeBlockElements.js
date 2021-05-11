@@ -48,12 +48,12 @@ export const HomeContent = styled.div`
 
 export const Homeh1 = styled.h1`
     margin-top: 50px;
-    font-size: 55px;
+    font-size: 80px;
     color: white;
     text-align: left;
     margin-left: 20%;
     margin-bottom: 10px;
-    font-family: 'Montserrat Subrayada', sans-serif;
+    fontFamily: 'Sen', sans-serif;
     @media screen and (max-width: 768px){
         font-size: 40px;
     }
@@ -65,12 +65,13 @@ export const Homeh1 = styled.h1`
 
 export const Homeh3 = styled.h3`
     // font-family: 'Farro', sans-serif;
-    font-family: 'Zilla Slab Highlight', cursive;
+    fontFamily: 'Sen', sans-serif;
+    // font-family: 'Zilla Slab Highlight', cursive;
     color: black;
     margin-left: 20%;
     margin-right: 3%;
     text-align: left;
-    margin-top: 24px;
-    font-size: 32px;
+    margin-top: 10px;
+    font-size: 34px;
 `;
 

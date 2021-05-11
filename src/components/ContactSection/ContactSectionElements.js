@@ -62,8 +62,8 @@ export const SectionHeader = styled.h3`
     margin-top: -50px;
     color: white;
     font-family: 'Montserrat Subrayada', sans-serif;
-    margin-bottom: 80px;
-
+    margin-bottom: 60px;
+    padding-bottom: 20px;
 `;
 
 export const ImageContainer = styled.div`
@@ -77,7 +77,7 @@ export const ImageContainer = styled.div`
 `;
 
 export const IconList = styled.ul`
-    margin-top: 10px;
+    margin-top: 40px;
     margin-left: 50px;
     display: grid;
     grid-template-columns: 1fr;
@@ -109,3 +109,4 @@ export const Description = styled.p`
     line-height: 1.8;
     font-family: 'Farro', sans-serif;
 `;
+

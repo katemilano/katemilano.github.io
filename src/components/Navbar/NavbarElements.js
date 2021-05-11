@@ -38,8 +38,7 @@ export const NavLogo = styled(LinkRouter)`
     font-weight: bold;
     text-decoration: none;
     margin-top: 30px;
-    font-family: 'Major Mono Display', monospace;
-    // font-family: 'Sen', sans-serif;
+    fontFamily: 'Sen', sans-serif;
     
 `;
 
@@ -84,7 +83,7 @@ export const NavLinks = styled(LinkScroll)`
     padding: 0 1rem;
     height: 100%;
     cursor: pointer:
-    font-family: 'Mukta Mahee', sans-serif;    
+    // font-family: 'Mukta Mahee', sans-serif;    
 
     &.active{
         padding-bottom: none;

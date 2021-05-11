@@ -4,6 +4,11 @@ export const Wrapper1 = styled.div`
     float: left;
     width: 30%;
     height: 100px;
+
+    @media screen and (max-width: 960px){
+        margin-top: 10%;
+        width: 100%;
+    }
 `;
 
 export const Wrapper2 = styled.div`
@@ -11,6 +16,22 @@ export const Wrapper2 = styled.div`
     float: right;
     width: 65%;
     height: 100px;
+
+    @media screen and (max-width: 1250px){
+        width: 75%;
+        margin-top: 2%;
+    }
+
+    @media screen and (max-width: 1180px){
+        width: 90%;
+        margin-top: 2%;
+        margin-left: 15%; 
+    }
+
+    @media screen and (max-width: 960px){
+        margin-left: 40%;
+    }
+
 `;
 
 export const MainContainer = styled.div`
@@ -28,11 +49,14 @@ export const MainContainer = styled.div`
 
     @media screen and (max-width: 960px){
         margin-bottom: 600px;
+        width: 500px;
+        height: 825px;
     }
 
     @media screen and (max-width: 640px){
         margin-bottom: 900px;
-
+        height: 1650px;
+        width: 300px;
     }
 `;
 
@@ -78,14 +102,14 @@ export const MainContent = styled.div`
         grid-template-columns: repeat(2, 1fr);
         grid-auto-rows: auto;
         grid-gap: 1rem;
-        margin-top: -300px;
+        margin-top: 30px;
     }
 
     @media screen and (max-width: 640px){
         grid-template-columns: repeat(1, 1fr);
         grid-auto-rows: auto;
         grid-gap: 1rem;
-        margin-top: -1200px;
+        margin-top: 30px;
     }
 `;
 

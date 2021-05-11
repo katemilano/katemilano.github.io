@@ -31,11 +31,11 @@ export const Header = styled.h1`
 
 
     @media screen and (max-width: 960px){
-        margin-top: -550px;
+        margin-top: 1050px;
     }
 
     @media screen and (max-width: 640px){
-        margin-top: -850px;
+        margin-top: 1800px;
 
     }
 `;
@@ -60,14 +60,13 @@ export const SkillContent = styled.div`
         grid-template-columns: repeat(4, 1fr);
         grid-auto-rows: auto;
         grid-gap: 5rem;
-        margin-top: 100px;
     }
 
     @media screen and (max-width: 640px){
         grid-template-columns: repeat(2, 1fr);
         grid-auto-rows: auto;
         grid-gap: 4rem;
-        margin-top: 600px;
+        margin-top: 200px;
     }
 `;
 
