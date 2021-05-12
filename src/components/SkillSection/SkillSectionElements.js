@@ -26,7 +26,7 @@ export const Header = styled.h1`
     text-align: center;
     color: #FD4B54;
     padding-top: 60px;
-    margin-top: 800px;
+    margin-top: 900px;
     font-family: 'Montserrat Subrayada', sans-serif;
 
 
@@ -35,7 +35,7 @@ export const Header = styled.h1`
     }
 
     @media screen and (max-width: 640px){
-        margin-top: 1800px;
+        margin-top: 1850px;
 
     }
 `;

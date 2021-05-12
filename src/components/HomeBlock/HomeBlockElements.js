@@ -9,13 +9,11 @@ export const HomeContainer = styled.div`
     height: 800px;
     position: relative;
     z-index: 1;
-
 `;
 
 export const WrapText = styled.div`
     text-align: left;
     z-index: 99;
-
 `;
 
 export const HomeBackground = styled.div`

@@ -8,6 +8,7 @@ export const Wrapper1 = styled.div`
     @media screen and (max-width: 960px){
         margin-top: 10%;
         width: 100%;
+        margin-bottom: 20px;
     }
 `;
 
@@ -25,13 +26,21 @@ export const Wrapper2 = styled.div`
     @media screen and (max-width: 1180px){
         width: 90%;
         margin-top: 2%;
-        margin-left: 15%; 
+        margin-left: 25px; 
     }
 
     @media screen and (max-width: 960px){
-        margin-left: 40%;
+        width: 90%;
+        margin-right: 0%;
+        margin-left: 20%;
+        float: none;
     }
 
+    @media screen and (max-width: 640px){
+        width: 100%;
+        margin-right: 0%;
+        margin-left: 0;
+    }
 `;
 
 export const MainContainer = styled.div`
@@ -56,7 +65,7 @@ export const MainContainer = styled.div`
     @media screen and (max-width: 640px){
         margin-bottom: 900px;
         height: 1650px;
-        width: 300px;
+        // width: 300px;
     }
 `;
 
@@ -70,7 +79,6 @@ export const Header = styled.h1`
     margin-bottom: 120px;
     z-index: 1;
     font-family: 'Montserrat Subrayada', sans-serif;
-
 
     @media screen and (max-width: 960px){
         padding-bottom: 300px;
@@ -140,7 +148,80 @@ export const CardFront = styled.div`
     height: 100%;
     -webkit-backface-visibility: hidden; 
     backface-visibility: hidden;
+    transition: 0.5s ease-out;
+    padding: 0.6rem;
+
+    &:click:before{
+        opacity: 1;
+    }
+
+    &:before{
+        content: "";
+        position: absolute;
+        top: 0;
+        left: 0;
+        display: block;
+        width: 100%;
+        height: 100%;
+        border-radius: 15px;
+        background: rgba(0, 0, 0, 0.6);
+        z-index: 2;
+        transition: 0.5s;
+        opacity: 0;
+    }
+		
 `;
 
+export const CardButton = styled.button`
+    padding: 0.6rem;
+    outline: none;
+    border: none;
+    border-radius: 3px;
+    background: white;
+    color: black;
+    font-weight: bold;
+    cursor: pointer;
+    transition: 0.4s ease;
+    margin-top: 42%;
+    margin-left: 5%;
 
+    &:hover{
+        background: #DCE3AA;
+        color: white;
+    }
+        
 
+`;
+
+export const Info = styled.div`
+    position: relative;
+    z-index: 3;
+    color: white;
+    opacity: 0;
+    transform: translateY(30px);
+    transition: 1s;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.6);
+    margin-top: -10%;
+
+    &:hover{
+        opacity: 1;
+        // transform: translateY(-20px);
+        z-index: 1;
+
+    }
+`;
+
+export const Title = styled.h2`
+    margin: 0px;
+
+`;
+
+export const Descript = styled.p`
+    letter-spacing: 1px;
+    font-size: 15px;
+    margin-top: 8px;
+
+`;

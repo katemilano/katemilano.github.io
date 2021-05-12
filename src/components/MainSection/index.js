@@ -1,5 +1,5 @@
-import React from 'react'
-import {MainContainer, MainContent, MainCard, MainCardContent, CardFront, Wrapper1, Wrapper2, Header} from './MainSectionElements'
+import React, { useState } from 'react'
+import {MainContainer, MainContent, MainCard, MainCardContent, CardFront, Wrapper1, Wrapper2, Header, CardButton, Info, Title, Descript} from './MainSectionElements'
 import nightsin from '../../images/portfolio/image.png';
 import locationhub from '../../images/portfolio/locationhub.png';
 import workoutapp   from '../../images/portfolio/workoutapp.png';
@@ -10,6 +10,7 @@ import pink3 from '../../images/pink3.png';
 
 
 const MainSection = () => {
+
     return (
         <>
         
@@ -22,10 +23,14 @@ const MainSection = () => {
                     <MainContent>
                             <MainCard>
                                 <MainCardContent>
-                                    <CardFront>
-                                        <img src={nightsin} alt="nightsin" height={230} width={230}/>
+                                    <CardFront style={{backgroundImage: "${nightsin}"}}>
+                                    <img src={nightsin} alt="nightsin" height={230} width={230}/>
                                     </CardFront>
-                                    
+
+                                    <Info >
+                                        <CardButton > Click to View Project </CardButton>
+                                    </Info>
+                                  
                                 </MainCardContent>
                             </MainCard>
                             <MainCard>
@@ -34,6 +39,10 @@ const MainSection = () => {
                                         <img src={locationhub} alt="locationhub" height={230} width={230}/>
                                     </CardFront>
                                     
+                                    <Info >
+                                        <CardButton > Click to View Project </CardButton>
+                                    </Info>
+
                                 </MainCardContent>
                             </MainCard>
                             <MainCard>
@@ -42,6 +51,10 @@ const MainSection = () => {
                                         <img src={workoutapp} alt="workoutapp" height={230} width={230}/>
                                     </CardFront>
                                 
+                                    <Info >
+                                        <CardButton > Click to View Project </CardButton>
+                                    </Info>
+
                                 </MainCardContent>
                             </MainCard>
                             <MainCard>
@@ -49,6 +62,10 @@ const MainSection = () => {
                                     <CardFront>
                                         <img src={burger} alt="burger" height={230} width={230}/>
                                     </CardFront>
+
+                                    <Info >
+                                        <CardButton > Click to View Project </CardButton>
+                                    </Info>
                                     
                                 </MainCardContent>
                             </MainCard>
@@ -58,6 +75,10 @@ const MainSection = () => {
                                         <img src={codequiz} alt="codequiz" height={230} width={230}/>
                                     </CardFront>
                                     
+                                    <Info >
+                                        <CardButton > Click to View Project </CardButton>
+                                    </Info>
+
                                 </MainCardContent>
                             </MainCard>
                             <MainCard>
@@ -65,6 +86,10 @@ const MainSection = () => {
                                     <CardFront>
                                         <img src={weatherdashboard} alt="weatherdashboard" height={230} width={230}/>
                                     </CardFront>
+
+                                    <Info >
+                                        <CardButton > Click to View Project </CardButton>
+                                    </Info>
                                     
                                 </MainCardContent>
                             </MainCard>

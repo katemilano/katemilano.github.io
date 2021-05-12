@@ -45,6 +45,10 @@ export const FirstWrap = styled.div`
     color: purple;
     height: 100px;
     width: 500px;
+
+    @media screen and (max-width: 950px){
+        width: 100%;
+    }
     
 `;
 
@@ -53,6 +57,9 @@ export const SecondWrap = styled.div`
     color: pink;
     height: 100px;
     width: 600px;
+    @media screen and (max-width: 950px){
+        width: 100%;
+    }
 `;
 
 export const SectionHeader = styled.h3`
@@ -64,6 +71,12 @@ export const SectionHeader = styled.h3`
     font-family: 'Montserrat Subrayada', sans-serif;
     margin-bottom: 60px;
     padding-bottom: 20px;
+
+    @media screen and (max-width: 960px){
+        margin-top: -100px;
+        margin-left: 0;
+        margin-right: none;
+    }
 `;
 
 export const ImageContainer = styled.div`
