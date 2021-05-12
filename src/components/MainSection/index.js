@@ -7,6 +7,7 @@ import burger from '../../images/portfolio/burger.png';
 import codequiz from '../../images/portfolio/codequiz.png';
 import weatherdashboard from '../../images/portfolio/weatherdashboard.png'
 import pink3 from '../../images/pink3.png';
+import {Link } from "react-router-dom";
 
 
 const MainSection = () => {
@@ -28,7 +29,9 @@ const MainSection = () => {
                                     </CardFront>
 
                                     <Info >
-                                        <CardButton > Click to View Project </CardButton>
+                                        <Link to="/nightsin">
+                                            <CardButton > Click to View Project </CardButton>
+                                        </Link>
                                     </Info>
                                   
                                 </MainCardContent>
