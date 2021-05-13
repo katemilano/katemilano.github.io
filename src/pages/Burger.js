@@ -1,14 +1,11 @@
-import React, {useState} from 'react';
-import NightsInProject from '../components/NightsInProject';
-
+import React from 'react';
+import BurgerProject from '../components/BurgerProject';
 
 
 const Burgers = () => {
     return (
         <>
-         
-            <NightsInProject />
-           
+            <BurgerProject />
         </>
     )
 }

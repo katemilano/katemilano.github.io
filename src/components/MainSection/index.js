@@ -43,7 +43,9 @@ const MainSection = () => {
                                     </CardFront>
                                     
                                     <Info >
-                                        <CardButton > Click to View Project </CardButton>
+                                        <Link to="/burger">
+                                            <CardButton > Click to View Project </CardButton>
+                                        </Link>
                                     </Info>
 
                                 </MainCardContent>
@@ -55,7 +57,9 @@ const MainSection = () => {
                                     </CardFront>
                                 
                                     <Info >
-                                        <CardButton > Click to View Project </CardButton>
+                                         <Link to="/workoutapp">
+                                            <CardButton > Click to View Project </CardButton>
+                                        </Link>                                    
                                     </Info>
 
                                 </MainCardContent>
@@ -67,8 +71,9 @@ const MainSection = () => {
                                     </CardFront>
 
                                     <Info >
-                                        <CardButton > Click to View Project </CardButton>
-                                    </Info>
+                                        <Link to="/burger">
+                                            <CardButton > Click to View Project </CardButton>
+                                        </Link>                                    </Info>
                                     
                                 </MainCardContent>
                             </MainCard>
@@ -79,8 +84,9 @@ const MainSection = () => {
                                     </CardFront>
                                     
                                     <Info >
-                                        <CardButton > Click to View Project </CardButton>
-                                    </Info>
+                                        <Link to="/codequiz">
+                                            <CardButton > Click to View Project </CardButton>
+                                        </Link>                                    </Info>
 
                                 </MainCardContent>
                             </MainCard>
@@ -91,8 +97,9 @@ const MainSection = () => {
                                     </CardFront>
 
                                     <Info >
-                                        <CardButton > Click to View Project </CardButton>
-                                    </Info>
+                                        <Link to="/weatherdashboard">
+                                            <CardButton > Click to View Project </CardButton>
+                                        </Link>                                    </Info>
                                     
                                 </MainCardContent>
                             </MainCard>

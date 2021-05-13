@@ -1,10 +1,10 @@
 import React from 'react'
-import {HomeContainer, HomeBackground, HomeContent, VideoBg} from '../HomeBlock/HomeBlockElements'
+import {HomeContainer, HomeBackground, HomeContent, VideoBg} from '../HomeBlock/HomeBlockElements';
 import Video from '../../video/pink.mp4';
-import {HeadContainer, BodyContainer, Header, ImageContainer, Description, ButtonLinks, Links } from './NightsInElements'
+import {HeadContainer, BodyContainer, Header, ImageContainer, Description, ButtonLinks, Links } from '../../components/NightsInProject/NightsInElements';
 import image from '../../images/portfolio/image.png';
 
-const NightsInProject = () => {
+const BurgerProject = () => {
     return (
         <HomeContainer id="home">
             <HomeBackground>
@@ -13,7 +13,7 @@ const NightsInProject = () => {
 
             <HomeContent>
                 <HeadContainer>
-                    <Header>Nights-In</Header>
+                    <Header>Burger</Header>
                 </HeadContainer>
 
                 <ImageContainer >
@@ -45,7 +45,7 @@ const NightsInProject = () => {
                      exact='true'
                      offset={-80}
                      style={{color: "lightgrey", fontSize: "18px"}}
-                     >Back to home ></Links>
+                     >Back to home </Links>
 
 
 
@@ -58,4 +58,4 @@ const NightsInProject = () => {
     )
 }
 
-export default NightsInProject
+export default BurgerProject;

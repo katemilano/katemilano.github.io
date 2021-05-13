@@ -70,6 +70,6 @@ export const Homeh3 = styled.h3`
     margin-right: 3%;
     text-align: left;
     margin-top: 10px;
-    font-size: 34px;
+    font-size: 26px;
 `;
 
