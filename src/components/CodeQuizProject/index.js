@@ -2,9 +2,9 @@ import React from 'react'
 import {HomeContainer, HomeBackground, HomeContent, VideoBg} from '../HomeBlock/HomeBlockElements';
 import Video from '../../video/pink.mp4';
 import {HeadContainer, BodyContainer, Header, ImageContainer, Description, ButtonLinks, Links } from '../../components/NightsInProject/NightsInElements';
-import burger from '../../images/portfolio/burger.png';
+import codequiz from '../../images/portfolio/codequiz.png';
 
-const BurgerProject = () => {
+const CodeQuizProject = () => {
     return (
         <HomeContainer id="home">
             <HomeBackground>
@@ -13,12 +13,12 @@ const BurgerProject = () => {
 
             <HomeContent>
                 <HeadContainer>
-                    <Header>Burger</Header>
+                    <Header>Code Quiz</Header>
                 </HeadContainer>
 
                 <ImageContainer >
                     <img 
-                    src={burger} 
+                    src={codequiz} 
                     height={300} 
                     width={300}
                     style={{border: "20px solid black", marginTop: "18px"}}
@@ -26,14 +26,14 @@ const BurgerProject = () => {
                 </ImageContainer>
 
                 <BodyContainer>
-                    <Description>This application allows a full stack app that the front-end and back-end interact with each other. The user is able to input their burger which appears on a list of "Burgers Made". When the "Devour it!" button is press, the burger switches into the "Burger Eaten" column. </Description>
-                    <Description style={{fontStyle: "italic", marginBottom: "0"}}>Technology Used:</Description><Description style={{marginTop: "0"}}>JavaScript, ORM, jQuery, Node.js, Express.js, Handlebars.js, mySQL, BootStrap, and Heroku</Description>
+                    <Description>The quiz goes through a series of coding questions alerting you if you have answered the question correctly. Simultaneously, a timer begins when the quiz is started. The quiz score is made up of a combination of time left and the amount of questions answered correctly. The quiz also allows you to view highscores! </Description>
+                    <Description style={{fontStyle: "italic", marginBottom: "0"}}>Technology Used:</Description><Description style={{marginTop: "0"}}>HTML, CSS, and JavaScript</Description>
                     
-                    <a href='https://github.com/katemilano/burger'>
+                    <a href='https://github.com/katemilano/codequiz'>
                     <ButtonLinks style={{marginRight: "0"}}>View on Github</ButtonLinks>
                     </a>
 
-                    <a href='https://eataburger-app.herokuapp.com/'>
+                    <a href='https://katemilano.github.io/codequiz/'>
                     <ButtonLinks style={{marginRight: "100px", marginLeft: "10px"}}>View it Live</ButtonLinks>
                     </a>
 
@@ -58,4 +58,4 @@ const BurgerProject = () => {
     )
 }
 
-export default BurgerProject;
+export default CodeQuizProject;

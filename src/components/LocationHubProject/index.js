@@ -2,9 +2,9 @@ import React from 'react'
 import {HomeContainer, HomeBackground, HomeContent, VideoBg} from '../HomeBlock/HomeBlockElements';
 import Video from '../../video/pink.mp4';
 import {HeadContainer, BodyContainer, Header, ImageContainer, Description, ButtonLinks, Links } from '../../components/NightsInProject/NightsInElements';
-import burger from '../../images/portfolio/burger.png';
+import locationhub from '../../images/portfolio/locationhub.png';
 
-const BurgerProject = () => {
+const LocationHubProject = () => {
     return (
         <HomeContainer id="home">
             <HomeBackground>
@@ -13,12 +13,12 @@ const BurgerProject = () => {
 
             <HomeContent>
                 <HeadContainer>
-                    <Header>Burger</Header>
+                    <Header>Location Hub</Header>
                 </HeadContainer>
 
                 <ImageContainer >
                     <img 
-                    src={burger} 
+                    src={locationhub} 
                     height={300} 
                     width={300}
                     style={{border: "20px solid black", marginTop: "18px"}}
@@ -26,14 +26,15 @@ const BurgerProject = () => {
                 </ImageContainer>
 
                 <BodyContainer>
-                    <Description>This application allows a full stack app that the front-end and back-end interact with each other. The user is able to input their burger which appears on a list of "Burgers Made". When the "Devour it!" button is press, the burger switches into the "Burger Eaten" column. </Description>
-                    <Description style={{fontStyle: "italic", marginBottom: "0"}}>Technology Used:</Description><Description style={{marginTop: "0"}}>JavaScript, ORM, jQuery, Node.js, Express.js, Handlebars.js, mySQL, BootStrap, and Heroku</Description>
+                    <Description>The Location Hub was a group application made to make traveling and visiting a new place easier.  This application allows you to search the city of your choosing and provide information about the area including the covid cases, weather, and local high-rated restaurant all with one click. </Description>
+                    <Description style={{fontStyle: "italic", marginBottom: "0"}}>Technology Used:</Description><Description style={{marginTop: "0"}}>HTML, CSS, JQuery, Bootstrap, Google Fonts, Weather API, Covid API, and Restaurant API.
+</Description>
                     
-                    <a href='https://github.com/katemilano/burger'>
+                    <a href='https://github.com/zsmith4331/project1-team4'>
                     <ButtonLinks style={{marginRight: "0"}}>View on Github</ButtonLinks>
                     </a>
 
-                    <a href='https://eataburger-app.herokuapp.com/'>
+                    <a href='https://zsmith4331.github.io/project1-team4/'>
                     <ButtonLinks style={{marginRight: "100px", marginLeft: "10px"}}>View it Live</ButtonLinks>
                     </a>
 
@@ -58,4 +59,4 @@ const BurgerProject = () => {
     )
 }
 
-export default BurgerProject;
+export default LocationHubProject;

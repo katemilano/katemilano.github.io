@@ -1,5 +1,5 @@
 import React from 'react';
-import NightsInProject from '../components/NightsInProject';
+import LocationHubProject from '../components/LocationHubProject';
 
 
 
@@ -7,7 +7,7 @@ const LocationHub = () => {
     return (
         <>
          
-            <NightsInProject />
+            <LocationHubProject />
            
         </>
     )

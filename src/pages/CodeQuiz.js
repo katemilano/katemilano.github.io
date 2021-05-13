@@ -1,14 +1,12 @@
 import React from 'react';
-import NightsInProject from '../components/NightsInProject';
+import CodeQuizProject from '../components/CodeQuizProject';
 
 
 
 const CodeQuiz = () => {
     return (
         <>
-         
-            <NightsInProject />
-           
+            <CodeQuizProject />
         </>
     )
 }
