@@ -43,7 +43,7 @@ const MainSection = () => {
                                     </CardFront>
                                     
                                     <Info >
-                                        <Link to="/burger">
+                                        <Link to="/locationhub">
                                             <CardButton > Click to View Project </CardButton>
                                         </Link>
                                     </Info>
@@ -53,11 +53,11 @@ const MainSection = () => {
                             <MainCard>
                                 <MainCardContent>
                                     <CardFront>
-                                        <img src={workoutapp} alt="workoutapp" height={230} width={230}/>
+                                        <img src={workoutapp} alt="dumbbellsfordummies" height={230} width={230}/>
                                     </CardFront>
                                 
                                     <Info >
-                                         <Link to="/workoutapp">
+                                         <Link to="/dumbbellsfordummies">
                                             <CardButton > Click to View Project </CardButton>
                                         </Link>                                    
                                     </Info>

@@ -1,10 +1,10 @@
 import React from 'react'
 import {HomeContainer, HomeBackground, HomeContent, VideoBg} from '../HomeBlock/HomeBlockElements'
 import Video from '../../video/pink.mp4';
-import {HeadContainer, BodyContainer, Header, ImageContainer, Description, ButtonLinks, Links } from './NightsInElements'
-import image from '../../images/portfolio/image.png';
+import {HeadContainer, BodyContainer, Header, ImageContainer, Description, ButtonLinks, Links } from '../../components/NightsInProject/NightsInElements';
+import weatherdashboard from '../../images/portfolio/weatherdashboard.png';
 
-const NightsInProject = () => {
+const WeatherDashboardProject = () => {
     return (
         <HomeContainer id="home">
             <HomeBackground>
@@ -13,12 +13,12 @@ const NightsInProject = () => {
 
             <HomeContent>
                 <HeadContainer>
-                    <Header>Nights-In</Header>
+                    <Header style={{fontSize: "70px"}}>Weather Dashboard</Header>
                 </HeadContainer>
 
                 <ImageContainer >
                     <img 
-                    src={image} 
+                    src={weatherdashboard} 
                     height={300} 
                     width={300}
                     style={{border: "20px solid black", marginTop: "18px"}}
@@ -26,14 +26,14 @@ const NightsInProject = () => {
                 </ImageContainer>
 
                 <BodyContainer>
-                    <Description>Nights-In is an interactive app that allows you to sign into your account and invite friends through calendar invites to an online game.  Whether you are close or far away you can join the game and virtually have game night and play trivia game together. </Description>
-                    <Description style={{fontStyle: "italic", marginBottom: "0"}}>Technology Used:</Description><Description style={{marginTop: "0"}}>HTML, CSS, React, and mySQL</Description>
+                    <Description>This App allows you to enter in a city and it will display the weather with city name, icon, temperature, humidity, wind speed, and uv index. It also will show a 5-day forecast for that city and create a button for each search. If the page is reloaded, the last city search with pop up. </Description>
+                    <Description style={{fontStyle: "italic", marginBottom: "0"}}>Technology Used:</Description><Description style={{marginTop: "0"}}>HTML, CSS, Javascript, and Bootstrap</Description>
                     
-                    <a href='https://github.com/JFunck1990/Nights-In'>
+                    <a href='https://github.com/katemilano/weatherdashboard'>
                     <ButtonLinks style={{marginRight: "0"}}>View on Github</ButtonLinks>
                     </a>
 
-                    <a href='https://nights-in.herokuapp.com/'>
+                    <a href='https://katemilano.github.io/weatherdashboard/'>
                     <ButtonLinks style={{marginRight: "100px", marginLeft: "10px"}}>View it Live</ButtonLinks>
                     </a>
 
@@ -58,4 +58,4 @@ const NightsInProject = () => {
     )
 }
 
-export default NightsInProject
+export default WeatherDashboardProject

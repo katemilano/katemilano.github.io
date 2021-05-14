@@ -17,7 +17,7 @@ function App() {
         <Route path="/" component={Home} exact />
         <Route path="/nightsin" component={NightsIn} exact />
         <Route path="/locationhub" component={LocationHub} exact />
-        <Route path="/dumbellsfordummies" component={Dumbbells} exact />
+        <Route path="/dumbbellsfordummies" component={Dumbbells} exact />
         <Route path="/burger" component={Burger} exact />
         <Route path="/codequiz" component={CodeQuiz} exact />
         <Route path="/weatherdashboard" component={Weather} exact />

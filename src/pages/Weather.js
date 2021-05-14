@@ -1,13 +1,12 @@
 import React from 'react';
-import NightsInProject from '../components/NightsInProject';
-
+import WeatherDashboardProject from '../components/WeatherDashboardProject/';
 
 
 const Weather = () => {
     return (
         <>
          
-            <NightsInProject />
+            <WeatherDashboardProject />
            
         </>
     )

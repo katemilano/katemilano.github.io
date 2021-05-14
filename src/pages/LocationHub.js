@@ -6,9 +6,7 @@ import LocationHubProject from '../components/LocationHubProject';
 const LocationHub = () => {
     return (
         <>
-         
-            <LocationHubProject />
-           
+            <LocationHubProject />     
         </>
     )
 }

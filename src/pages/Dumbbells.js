@@ -1,5 +1,5 @@
 import React from 'react';
-import NightsInProject from '../components/NightsInProject';
+import DumbbellsProject from '../components/DumbbellsProject';
 
 
 
@@ -7,7 +7,7 @@ const Dumbbells = () => {
     return (
         <>
          
-            <NightsInProject />
+            <DumbbellsProject />
            
         </>
     )
