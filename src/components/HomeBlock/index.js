@@ -11,9 +11,9 @@ const HomeBlock = () => {
 
             <HomeContent>
                 <Homeh1 style={{marginRight: "500px", fontSize:"100px"}}>Hello, </Homeh1>
-                <Homeh1 style={{marginTop: "0px"}}>Welcome to my webpage.</Homeh1>
+                <Homeh1 style={{marginTop: "0px"}}>Welcome to my portfolio.</Homeh1>
                 <Homeh3>
-                    Software Engineer with Bachelors of Science in Engineering and Bootcamp certified in coding. Looking to apply my problem solving skills and excited to continue my passion for coding and my endless journey of learning more about new technology.
+                    Software Engineer with Bachelors of Science in Engineering and Bootcamp certified in coding. Excited to continue my passion for coding, problem solving, and my endless journey of learning more about new technology.
                 </Homeh3>
             </HomeContent>
 

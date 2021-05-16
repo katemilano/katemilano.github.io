@@ -50,7 +50,7 @@ export const Homeh1 = styled.h1`
     color: white;
     text-align: left;
     margin-left: 20%;
-    margin-bottom: 10px;
+    margin-bottom: 0px;
     fontFamily: 'Sen', sans-serif;
     @media screen and (max-width: 768px){
         font-size: 40px;
@@ -66,8 +66,8 @@ export const Homeh3 = styled.h3`
     fontFamily: 'Sen', sans-serif;
     // font-family: 'Zilla Slab Highlight', cursive;
     color: black;
-    margin-left: 20%;
-    margin-right: 3%;
+    margin-left: 22%;
+    margin-right: 12%;
     text-align: left;
     margin-top: 10px;
     font-size: 26px;

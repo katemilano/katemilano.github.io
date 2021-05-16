@@ -24,7 +24,7 @@ export const SkillContainer = styled.div`
 export const Header = styled.h1`
     font-size: 300%;
     text-align: center;
-    color: #FD4B54;
+    color: #ecb7bf;
     padding-top: 60px;
     margin-top: 800px;
     font-family: 'Montserrat Subrayada', sans-serif;
