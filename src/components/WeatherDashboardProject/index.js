@@ -13,7 +13,7 @@ const WeatherDashboardProject = () => {
 
             <HomeContent>
                 <HeadContainer>
-                    <Header style={{fontSize: "70px"}}>Weather Dashboard</Header>
+                    <Header style={{fontSize: "46px", marginTop: "20px"}}>Weather Dashboard</Header>
                 </HeadContainer>
 
                 <ImageContainer >
@@ -27,14 +27,14 @@ const WeatherDashboardProject = () => {
 
                 <BodyContainer>
                     <Description>This App allows you to enter in a city and it will display the weather with city name, icon, temperature, humidity, wind speed, and uv index. It also will show a 5-day forecast for that city and create a button for each search. If the page is reloaded, the last city search with pop up. </Description>
-                    <Description style={{fontStyle: "italic", marginBottom: "0"}}>Technology Used:</Description><Description style={{marginTop: "0"}}>HTML, CSS, Javascript, and Bootstrap</Description>
+                    <Description style={{fontStyle: "italic", marginBottom: "0"}}>Technology Used:</Description><Description style={{marginTop: "0"}}>HTML, CSS, Javascript, Bootstrap, and Local</Description>
                     
-                    <a href='https://github.com/katemilano/weatherdashboard'>
-                    <ButtonLinks style={{marginRight: "0"}}>View on Github</ButtonLinks>
+                    <a href='https://github.com/katemilano/weatherdashboard'>[]
+                    <ButtonLinks style={{marginRight: "0", backgroundColor: "#ecb7bf"}}>View on Github</ButtonLinks>
                     </a>
 
                     <a href='https://katemilano.github.io/weatherdashboard/'>
-                    <ButtonLinks style={{marginRight: "100px", marginLeft: "10px"}}>View it Live</ButtonLinks>
+                    <ButtonLinks style={{marginRight: "100px", marginLeft: "10px", backgroundColor: "#DCE3AA"}}>View it Live</ButtonLinks>
                     </a>
 
                     <Links

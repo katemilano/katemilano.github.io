@@ -23,8 +23,10 @@ export const BodyContainer = styled.div`
 `;
 
 export const Header = styled.div`
-    font-size: 80px;
+    font-size: 70px;
     color: white;
+    font-family: 'Montserrat Subrayada',sans-seri;
+    margin-top: 10px;
 
 `;
 
@@ -41,20 +43,28 @@ export const ImageContainer = styled.div`
 export const Description = styled.p`
     color: white;
     margin: 35px;
-    font-size: 22px;
+    font-size: 21px;
 `;
 
 export const ButtonLinks = styled.button`
     font-size: 20px;
     color: white;
-    background-color: darkgrey;
     margin: 35px;
-    border-radius: 7px;
+    border-radius: 4px;
     margin-bottom: 0;
+    border: none;
+    color: white;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
     
 `;
 
 export const Links = styled(LinkRouter)`
     margin: 35px;
     margin-right: 0;
-`
+    font-size: 20px;
+
+`;

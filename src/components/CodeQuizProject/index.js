@@ -30,11 +30,11 @@ const CodeQuizProject = () => {
                     <Description style={{fontStyle: "italic", marginBottom: "0"}}>Technology Used:</Description><Description style={{marginTop: "0"}}>HTML, CSS, and JavaScript</Description>
                     
                     <a href='https://github.com/katemilano/codequiz'>
-                    <ButtonLinks style={{marginRight: "0"}}>View on Github</ButtonLinks>
+                    <ButtonLinks style={{marginRight: "0", backgroundColor: "#ecb7bf"}}>View on Github</ButtonLinks>
                     </a>
 
                     <a href='https://katemilano.github.io/codequiz/'>
-                    <ButtonLinks style={{marginRight: "100px", marginLeft: "10px"}}>View it Live</ButtonLinks>
+                    <ButtonLinks style={{marginRight: "100px", marginLeft: "10px", backgroundColor: "#DCE3AA"}}>View it Live</ButtonLinks>
                     </a>
 
                     <Links

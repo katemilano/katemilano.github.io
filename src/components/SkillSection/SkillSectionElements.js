@@ -26,7 +26,7 @@ export const Header = styled.h1`
     text-align: center;
     color: #FD4B54;
     padding-top: 60px;
-    margin-top: 900px;
+    margin-top: 800px;
     font-family: 'Montserrat Subrayada', sans-serif;
 
 
@@ -48,7 +48,7 @@ export const SkillContent = styled.div`
     display: flex;
     flex-direction: column;
     align-items: center;
-    margin-bottom: 10px;
+    margin-bottom: 50px;
     display: grid;
     grid-template-columns: repeat(6, 1fr);
     grid-auto-rows: auto;

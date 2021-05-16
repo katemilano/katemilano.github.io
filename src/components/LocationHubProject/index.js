@@ -13,7 +13,7 @@ const LocationHubProject = () => {
 
             <HomeContent>
                 <HeadContainer>
-                    <Header>Location Hub</Header>
+                    <Header style={{fontSize: "60px"}}> Location Hub</Header>
                 </HeadContainer>
 
                 <ImageContainer >
@@ -31,11 +31,11 @@ const LocationHubProject = () => {
 </Description>
                     
                     <a href='https://github.com/zsmith4331/project1-team4'>
-                    <ButtonLinks style={{marginRight: "0"}}>View on Github</ButtonLinks>
+                    <ButtonLinks style={{marginRight: "0",  backgroundColor: "#ecb7bf"}}>View on Github</ButtonLinks>
                     </a>
 
                     <a href='https://zsmith4331.github.io/project1-team4/'>
-                    <ButtonLinks style={{marginRight: "100px", marginLeft: "10px"}}>View it Live</ButtonLinks>
+                    <ButtonLinks style={{marginRight: "100px", marginLeft: "10px", backgroundColor: "#DCE3AA"}}>View it Live</ButtonLinks>
                     </a>
 
                     <Links

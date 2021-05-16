@@ -30,11 +30,11 @@ const BurgerProject = () => {
                     <Description style={{fontStyle: "italic", marginBottom: "0"}}>Technology Used:</Description><Description style={{marginTop: "0"}}>JavaScript, ORM, jQuery, Node.js, Express.js, Handlebars.js, mySQL, BootStrap, and Heroku</Description>
                     
                     <a href='https://github.com/katemilano/burger'>
-                    <ButtonLinks style={{marginRight: "0"}}>View on Github</ButtonLinks>
+                    <ButtonLinks style={{marginRight: "0", backgroundColor: "#ecb7bf"}}>View on Github</ButtonLinks>
                     </a>
 
                     <a href='https://eataburger-app.herokuapp.com/'>
-                    <ButtonLinks style={{marginRight: "100px", marginLeft: "10px"}}>View it Live</ButtonLinks>
+                    <ButtonLinks style={{marginRight: "100px", marginLeft: "10px", backgroundColor: "#DCE3AA"}}>View it Live</ButtonLinks>
                     </a>
 
                     <Links

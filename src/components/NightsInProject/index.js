@@ -13,7 +13,7 @@ const NightsInProject = () => {
 
             <HomeContent>
                 <HeadContainer>
-                    <Header>Nights-In</Header>
+                    <Header style={{fontFamily: "'Montserrat Subrayada',sans-seri" }}>Nights-In</Header>
                 </HeadContainer>
 
                 <ImageContainer >
@@ -30,11 +30,11 @@ const NightsInProject = () => {
                     <Description style={{fontStyle: "italic", marginBottom: "0"}}>Technology Used:</Description><Description style={{marginTop: "0"}}>HTML, CSS, React, and mySQL</Description>
                     
                     <a href='https://github.com/JFunck1990/Nights-In'>
-                    <ButtonLinks style={{marginRight: "0"}}>View on Github</ButtonLinks>
+                    <ButtonLinks style={{marginRight: "0", backgroundColor: "#ecb7bf"}}>View on Github</ButtonLinks>
                     </a>
 
                     <a href='https://nights-in.herokuapp.com/'>
-                    <ButtonLinks style={{marginRight: "100px", marginLeft: "10px"}}>View it Live</ButtonLinks>
+                    <ButtonLinks style={{marginRight: "100px", marginLeft: "10px", backgroundColor: "#DCE3AA"}}>View it Live</ButtonLinks>
                     </a>
 
                     <Links
