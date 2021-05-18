@@ -72,7 +72,7 @@ export const MainContainer = styled.div`
 export const Header = styled.h1`
     font-size: 300%;
     text-align: center;
-    color: #DCE3AA;
+    color: #bdda57;
     background-color: transparent;
     padding-top: 30px;
     padding-bottom: 10px;
@@ -177,7 +177,7 @@ export const CardButton = styled.button`
     outline: none;
     border: none;
     border-radius: 3px;
-    background: white;
+    background: #DCE3AA;
     color: black;
     font-weight: bold;
     cursor: pointer;
@@ -186,7 +186,7 @@ export const CardButton = styled.button`
     margin-left: 5%;
 
     &:hover{
-        background: #DCE3AA;
+        background: #bcc95e;
         color: white;
     }
         

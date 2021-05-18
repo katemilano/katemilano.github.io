@@ -31,7 +31,7 @@ const LocationHubProject = () => {
 </Description>
                     
                     <a href='https://github.com/zsmith4331/project1-team4'>
-                    <ButtonLinks style={{marginRight: "0",  backgroundColor: "#ecb7bf"}}>View on Github</ButtonLinks>
+                    <ButtonLinks style={{marginRight: "0",  backgroundColor: "#fc4c4e"}}>View on Github</ButtonLinks>
                     </a>
 
                     <a href='https://zsmith4331.github.io/project1-team4/'>

@@ -30,7 +30,7 @@ const NightsInProject = () => {
                     <Description style={{fontStyle: "italic", marginBottom: "0"}}>Technology Used:</Description><Description style={{marginTop: "0"}}>HTML, CSS, React, and mySQL</Description>
                     
                     <a href='https://github.com/JFunck1990/Nights-In'>
-                    <ButtonLinks style={{marginRight: "0", backgroundColor: "#ecb7bf"}}>View on Github</ButtonLinks>
+                    <ButtonLinks style={{marginRight: "0", backgroundColor: "#fc4c4e"}}>View on Github</ButtonLinks>
                     </a>
 
                     <a href='https://nights-in.herokuapp.com/'>

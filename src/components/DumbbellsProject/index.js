@@ -30,7 +30,7 @@ const DumbbellsProject = () => {
                     <Description style={{fontStyle: "italic", marginBottom: "0"}}>Technology Used:</Description><Description style={{marginTop: "0"}}>HTML, CSS, Bootstrap, JavaScript, Express Handlebars, AnimeJS, Express, mySQL, Sequelize, and Exercise API</Description>
                     
                     <a href='https://github.com/katemilano/project2/'>
-                    <ButtonLinks style={{marginRight: "0", backgroundColor: "#ecb7bf"}}>View on Github</ButtonLinks>
+                    <ButtonLinks style={{marginRight: "0", backgroundColor: "#fc4c4e"}}>View on Github</ButtonLinks>
                     </a>
 
                     <a href='https://project2-kate.herokuapp.com/'>

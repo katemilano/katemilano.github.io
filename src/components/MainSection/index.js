@@ -24,82 +24,87 @@ const MainSection = () => {
                     <MainContent>
                             <MainCard>
                                 <MainCardContent>
+                                    <Link to="/nightsin">
                                     <CardFront style={{backgroundImage: "${nightsin}"}}>
                                     <img src={nightsin} alt="nightsin" height={230} width={230}/>
                                     </CardFront>
 
                                     <Info >
-                                        <Link to="/nightsin">
+                                        
                                             <CardButton > Click to View Project </CardButton>
-                                        </Link>
+                                       
                                     </Info>
+                                    </Link>
                                   
                                 </MainCardContent>
                             </MainCard>
                             <MainCard>
                                 <MainCardContent>
+                                    <Link to="/locationhub">
                                     <CardFront>
                                         <img src={locationhub} alt="locationhub" height={230} width={230}/>
                                     </CardFront>
                                     
                                     <Info >
-                                        <Link to="/locationhub">
                                             <CardButton > Click to View Project </CardButton>
-                                        </Link>
                                     </Info>
+                                    </Link>
 
                                 </MainCardContent>
                             </MainCard>
                             <MainCard>
                                 <MainCardContent>
+                                    <Link to="/dumbbellsfordummies">
                                     <CardFront>
                                         <img src={workoutapp} alt="dumbbellsfordummies" height={230} width={230}/>
                                     </CardFront>
                                 
                                     <Info >
-                                         <Link to="/dumbbellsfordummies">
-                                            <CardButton > Click to View Project </CardButton>
-                                        </Link>                                    
+                                        <CardButton > Click to View Project </CardButton>                               
                                     </Info>
+                                    </Link> 
 
                                 </MainCardContent>
                             </MainCard>
                             <MainCard>
                                 <MainCardContent>
+                                    <Link to="/burger">
                                     <CardFront>
                                         <img src={burger} alt="burger" height={230} width={230}/>
                                     </CardFront>
 
                                     <Info >
-                                        <Link to="/burger">
-                                            <CardButton > Click to View Project </CardButton>
-                                        </Link>                                    </Info>
+                                        <CardButton > Click to View Project </CardButton>                                
+                                    </Info>
+                                    </Link> 
                                     
                                 </MainCardContent>
                             </MainCard>
                             <MainCard>
                                 <MainCardContent>
+                                    <Link to="/codequiz">
                                     <CardFront>
                                         <img src={codequiz} alt="codequiz" height={230} width={230}/>
                                     </CardFront>
                                     
                                     <Info >
-                                        <Link to="/codequiz">
-                                            <CardButton > Click to View Project </CardButton>
-                                        </Link>                                    </Info>
+                                        <CardButton > Click to View Project </CardButton>                                
+                                    </Info>
+                                    </Link>
 
                                 </MainCardContent>
                             </MainCard>
                             <MainCard>
                                 <MainCardContent>
+                                    <Link to="/weatherdashboard">
                                     <CardFront>
                                         <img src={weatherdashboard} alt="weatherdashboard" height={230} width={230}/>
                                     </CardFront>
 
                                     <Info >
-                                        <Link to="/weatherdashboard">
-                                            <CardButton > Click to View Project </CardButton>
-                                        </Link>                                    </Info>
+                                        <CardButton > Click to View Project </CardButton>                                
+                                    </Info>
+                                    </Link>
                                     
                                 </MainCardContent>
                             </MainCard>

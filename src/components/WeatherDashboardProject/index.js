@@ -30,11 +30,11 @@ const WeatherDashboardProject = () => {
                     <Description style={{fontStyle: "italic", marginBottom: "0"}}>Technology Used:</Description><Description style={{marginTop: "0"}}>HTML, CSS, Javascript, Bootstrap, and Local</Description>
                     
                     <a href='https://github.com/katemilano/weatherdashboard'>[]
-                    <ButtonLinks style={{marginRight: "0", backgroundColor: "#ecb7bf"}}>View on Github</ButtonLinks>
+                    <ButtonLinks style={{marginRight: "0", backgroundColor: "#fc4c4e"}}>View on Github</ButtonLinks>
                     </a>
 
                     <a href='https://katemilano.github.io/weatherdashboard/'>
-                    <ButtonLinks style={{marginRight: "100px", marginLeft: "10px", backgroundColor: "#DCE3AA"}}>View it Live</ButtonLinks>
+                    <ButtonLinks style={{marginRight: "100px", marginLeft: "10px", backgroundColor: "#c8e29b"}}>View it Live</ButtonLinks>
                     </a>
 
                     <Links
