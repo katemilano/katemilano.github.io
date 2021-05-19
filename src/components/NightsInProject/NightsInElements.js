@@ -8,6 +8,7 @@ export const HeadContainer = styled.div`
     margin-left: 400px;
     text-align: center;
     margin-top: -50px;
+    border-radius: 12px;
     
 `;
 
@@ -19,6 +20,7 @@ export const BodyContainer = styled.div`
     overflow: hidden;
     display: inline;
     margin-left: 400px;
+    border-radius: 12px;
 
 `;
 
@@ -37,7 +39,7 @@ export const ImageContainer = styled.div`
     margin: 0;
     display: inline;
     margin-top: 50px;
-
+    border-radius: 12px;
 `;
 
 export const Description = styled.p`
