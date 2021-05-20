@@ -49,7 +49,7 @@ export const FirstWrap = styled.div`
     // @media screen and (max-width: 950px){
     //     width: 2000%;
     // }
-    @media screen and (max-width: 950px){
+    @media screen and (max-width: 960px){
         width: 0px;
 
      }
@@ -61,8 +61,9 @@ export const SecondWrap = styled.div`
     color: pink;
     height: 100px;
     width: 600px;
-    @media screen and (max-width: 950px){
-        width: 3000%;
+    @media screen and (max-width: 960px){
+        width: 100%;
+        
     }
 `;
 
@@ -77,10 +78,16 @@ export const SectionHeader = styled.h3`
     padding-bottom: 20px;
 
     @media screen and (max-width: 960px){
-        margin-top: -110px;
+        margin-top: -100px;
         margin-left: 0;
         margin-right: none;
         text-align:center;
+    }
+    @media screen and (max-width: 660px){
+        margin-top: -120px;
+    }
+    @media screen and (max-width: 540px){
+        margin-top: -190px;
     }
 `;
 
@@ -94,7 +101,9 @@ export const ImageContainer = styled.div`
 
     @media screen and (max-width: 960px){
         margin-top: 150px;
-        algin-content: center;
+        display: block;
+        margin-right: 0;
+        width: 50%;
     }
     
 `;
@@ -117,8 +126,9 @@ export const IconList = styled.ul`
     }
 
     @media screen and (max-width: 960px){
-        margin-left: 0px;
-        margin-top: 400px;
+        margin-top: 310px;
+        grid-template-rows: repeat(6, 50px);
+
     }
 
     
@@ -129,8 +139,9 @@ export const Icons = styled.li`
     color: transparent;
 
     @media screen and (max-width: 480px){
-        grid-template-rows: repeat(6, 60px);
+        grid-template-rows: repeat(6, 50px);
     }
+    
 `;
 
 export const Description = styled.p`
@@ -146,6 +157,87 @@ export const Description = styled.p`
     @media screen and (max-width: 960px){
         margin-top: -8%;
         text-align: center;
+        font-size: 18px;
+    }
+    @media screen and (max-width: 960px){
+        margin-top: -12%;
+        margin-right:0;
+    }
+`;
+
+export const Img = styled.img`
+    border: 15px solid black;
+
+    @media screen and (max-width: 960px){
+        margin-right: 0%;
+        margin-top: -90px;
+        height: 250px;
+        width: 300px;
+    }
+
+    @media screen and (max-width: 760px){
+        margin-top: -70px;
+    }
+    @media screen and (max-width: 600px){
+        margin-top: -50px;
+    }
+    @media screen and (max-width: 520px){
+        margin-top: -30px;
+    }
+
+ 
+`;
+
+export const ImgCont = styled.div`
+    @media screen and (max-width: 960px){
+        display: flex;
+        justify-content: center;
+        margin-left: 400px;
+    }
+    @media screen and (max-width: 950px){
+        margin-left: 390px;
+    }
+    @media screen and (max-width: 940px){
+        margin-left: 380px;
+    }
+    @media screen and (max-width: 875px){
+        margin-left: 370px;
+    }
+    @media screen and (max-width: 860px){
+        margin-left: 360px;
+    }
+    @media screen and (max-width: 850px){
+        margin-left: 320px;
+    }
+    @media screen and (max-width: 750px){
+        margin-left: 300px;
+    }
+    @media screen and (max-width: 720px){
+        margin-left: 290px;
+    }
+    @media screen and (max-width: 700px){
+        margin-left: 280px;
+        margin-right:0;
+    }
+    @media screen and (max-width: 670px){
+        margin-left: 260px;
+    }
+    @media screen and (max-width: 620px){
+        margin-left: 240px;
+    }
+    @media screen and (max-width: 600px){
+        margin-left: 215px;
+    }
+    @media screen and (max-width: 550px){
+        margin-left: 200px;
+    }
+    @media screen and (max-width: 510px){
+        margin-left: 180px;
+        margin-right:0;
+    }
+    @media screen and (max-width: 480px){
+        margin-left: 170px;
+        margin-right:0;
     }
 `;
 

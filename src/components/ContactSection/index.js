@@ -1,5 +1,5 @@
 import React from 'react'
-import {ContactFirstContainer, ContactSecondContainer, SectionHeader, ImageContainer, IconList, FirstWrap, SecondWrap, Description, Icons} from './ContactSectionElements';
+import {ContactFirstContainer, ContactSecondContainer, SectionHeader, ImageContainer, IconList, FirstWrap, SecondWrap, Description, Icons, Img, ImgCont} from './ContactSectionElements';
 import profilepic from '../../images/profilepic.jpg'
 import {FaEnvelope} from 'react-icons/fa'
 import {FaGithub} from 'react-icons/fa'
@@ -13,12 +13,14 @@ const ContactSection = () => {
             <ContactFirstContainer id="contact" style={{backgroundImage: `url(${pink3})`}}>
                 <FirstWrap>
                     <ImageContainer>
-                        <img 
-                            src={profilepic} alt="profilepic" 
-                            height={320} 
-                            width={380}
-                            style={{border: "15px solid black"}}
+                        <ImgCont>
+                            <Img 
+                                src={profilepic} alt="profilepic" 
+                                height={320} 
+                                width={380}
                             />
+                        </ImgCont>
+                        
                     </ImageContainer>
                 </FirstWrap>
 
