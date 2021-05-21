@@ -17,6 +17,7 @@ export const Wrapper2 = styled.div`
     float: right;
     width: 65%;
     height: 100px;
+   
 
     @media screen and (max-width: 1250px){
         width: 75%;
@@ -26,20 +27,15 @@ export const Wrapper2 = styled.div`
     @media screen and (max-width: 1180px){
         width: 90%;
         margin-top: 2%;
-        margin-left: 25px; 
     }
 
     @media screen and (max-width: 960px){
-        width: 90%;
-        margin-right: 0%;
-        margin-left: 20%;
         float: none;
     }
 
     @media screen and (max-width: 640px){
         width: 100%;
-        margin-right: 0%;
-        margin-left: 0;
+     
     }
 `;
 
@@ -58,14 +54,15 @@ export const MainContainer = styled.div`
 
     @media screen and (max-width: 960px){
         margin-bottom: 600px;
-        width: 500px;
         height: 825px;
+        display: flex;
+        justify-content: center;
+        width: 600px;
     }
 
     @media screen and (max-width: 640px){
         margin-bottom: 900px;
         height: 1650px;
-        // width: 300px;
     }
 `;
 
@@ -111,6 +108,7 @@ export const MainContent = styled.div`
         grid-auto-rows: auto;
         grid-gap: 1rem;
         margin-top: 30px;
+        margin-left: 0;
     }
 
     @media screen and (max-width: 640px){

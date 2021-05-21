@@ -46,9 +46,7 @@ export const FirstWrap = styled.div`
     height: 100px;
     width: 500px;
 
-    // @media screen and (max-width: 950px){
-    //     width: 2000%;
-    // }
+
     @media screen and (max-width: 960px){
         width: 0px;
 
@@ -86,9 +84,10 @@ export const SectionHeader = styled.h3`
     @media screen and (max-width: 660px){
         margin-top: -120px;
     }
-    @media screen and (max-width: 540px){
+    @media screen and (max-width: 535px){
         margin-top: -190px;
     }
+
 `;
 
 export const ImageContainer = styled.div`
@@ -122,12 +121,18 @@ export const IconList = styled.ul`
     }
 
     @media screen and (max-width: 1100px){
-        margin-left: 250px;
+        margin-left: 90px;
+    }
+
+    @media screen and (max-width: 1024px){
+        margin-top: -50px;
+        margin-left: 130px;
     }
 
     @media screen and (max-width: 960px){
         margin-top: 310px;
         grid-template-rows: repeat(6, 50px);
+        margin-left: 180px;
 
     }
 
@@ -158,11 +163,15 @@ export const Description = styled.p`
         margin-top: -8%;
         text-align: center;
         font-size: 18px;
+        margin-right: 50px;
     }
-    @media screen and (max-width: 960px){
-        margin-top: -12%;
-        margin-right:0;
+    @media screen and (max-width: 815px){
+        margin-top: -10%;
     }
+    @media screen and (max-width: 535px){
+        margin-top: -13%;
+    }
+
 `;
 
 export const Img = styled.img`
@@ -181,10 +190,15 @@ export const Img = styled.img`
     @media screen and (max-width: 600px){
         margin-top: -50px;
     }
+    @media screen and (max-width: 660px){
+        margin-top: -90px;
+    }
+    @media screen and (max-width: 580px){
+        margin-top: -50px;
+    }
     @media screen and (max-width: 520px){
         margin-top: -30px;
     }
-
  
 `;
 

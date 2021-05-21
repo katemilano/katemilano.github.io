@@ -42,6 +42,11 @@ export const HomeContent = styled.div`
     padding: 8px 24px;
     display: flex;
     flex-direction: column;
+
+    @media screen and (max-width: 950px){
+        padding: 0;
+        width: 100%;
+    }
 `;
 
 export const Homeh1 = styled.h1`
@@ -52,6 +57,11 @@ export const Homeh1 = styled.h1`
     margin-left: 20%;
     margin-bottom: 0px;
     fontFamily: 'Sen', sans-serif;
+
+    @media screen and (max-width: 960px){
+        margin-left: 10%;
+    }
+
     @media screen and (max-width: 768px){
         font-size: 40px;
     }
@@ -71,5 +81,9 @@ export const Homeh3 = styled.h3`
     text-align: left;
     margin-top: 10px;
     font-size: 26px;
+
+    @media screen and (max-width: 960px){
+        margin-left: 10%;
+    }
 `;
 
