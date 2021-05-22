@@ -58,11 +58,37 @@ export const MainContainer = styled.div`
         display: flex;
         justify-content: center;
         width: 600px;
+        margin-left: 15%;
+    }
+
+    @media screen and (max-width: 900px){
+        margin-left: 10%;
+    }
+
+    @media screen and (max-width: 850px){
+        margin-left: 8%;
+    }
+
+    @media screen and (max-width: 800px){
+        margin-left: 4%;
+    }
+
+    @media screen and (max-width: 700px){
+        margin-left: 2%;
+        width: 90%;
     }
 
     @media screen and (max-width: 640px){
         margin-bottom: 900px;
         height: 1650px;
+        width: 300px;
+        margin-left: 20%;
+    }
+    @media screen and (max-width: 400px){
+        margin-bottom: 900px;
+        height: 1650px;
+        width: 300px;
+        margin-left: 10%;
     }
 `;
 
@@ -109,6 +135,7 @@ export const MainContent = styled.div`
         grid-gap: 1rem;
         margin-top: 30px;
         margin-left: 0;
+       
     }
 
     @media screen and (max-width: 640px){
