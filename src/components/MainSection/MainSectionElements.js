@@ -84,12 +84,47 @@ export const MainContainer = styled.div`
         width: 300px;
         margin-left: 20%;
     }
+    @media screen and (max-width: 585px){
+        margin-left: 18%;
+    }
+    @media screen and (max-width: 530px){
+        margin-left: 15%;
+    }
+
+    @media screen and (max-width: 490px){
+        margin-left: 12%;
+    }
+
+    @media screen and (max-width: 450px){
+        margin-left: 10%;
+    }
+
     @media screen and (max-width: 400px){
         margin-bottom: 900px;
         height: 1650px;
-        width: 300px;
+        width: 280px;
         margin-left: 10%;
     }
+    @media screen and (max-width: 410px){
+        margin-left: 5%;
+    }
+
+    @media screen and (max-width: 350px){
+        width: 250px;
+    }
+
+    @media screen and (max-width: 340px){
+        margin-left 4%;
+    }
+
+    @media screen and (max-width: 320px){
+        margin-left 0%;
+    }
+
+    @media screen and (max-width: 300px){
+        width: 220px;
+    }
+  
 `;
 
 export const Header = styled.h1`
