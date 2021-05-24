@@ -196,8 +196,9 @@ export const Img = styled.img`
     @media screen and (max-width: 580px){
         margin-top: -50px;
     }
-    @media screen and (max-width: 520px){
-        margin-top: -30px;
+    @media screen and (max-width: 457px){
+        margin-top: -20px;
+        
     }
  
 `;
@@ -251,6 +252,37 @@ export const ImgCont = styled.div`
     }
     @media screen and (max-width: 480px){
         margin-left: 170px;
+        margin-right:0;
+    }
+
+    @media screen and (max-width: 435px){
+        margin-left: 150px;
+        margin-right:0;
+    }
+    @media screen and (max-width: 420px){
+        margin-left: 140px;
+        margin-right:0;
+    }
+
+    @media screen and (max-width: 390px){
+        margin-left: 130px;
+        margin-right:0;
+    }
+
+    @media screen and (max-width: 375px){
+        margin-left: 120px;
+        margin-right:0;
+    }
+    @media screen and (max-width: 360px){
+        margin-left: 110px;
+        margin-right:0;
+    }
+    @media screen and (max-width: 335px){
+        margin-left: 100px;
+        margin-right:0;
+    }
+    @media screen and (max-width: 320px){
+        margin-left: 95px;
         margin-right:0;
     }
 `;
