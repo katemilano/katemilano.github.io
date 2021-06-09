@@ -6,6 +6,7 @@ import {FaGithub} from 'react-icons/fa'
 import {FaLinkedin} from 'react-icons/fa'
 import {FaFileDownload} from 'react-icons/fa'
 import pink3 from '../../images/pink3.png';
+import resume from '../../files/CMilanoResume.pdf';
 
 
 const ContactSection = () => {
@@ -43,7 +44,7 @@ const ContactSection = () => {
                             </Icons>
                             <Icons>
                                 <FaFileDownload style={{color: 'black', marginLeft: "-290px"}} size={38}/>
-                                <a href="https://www.linkedin.com/in/catherine-milano-3aa22a116/" style={{color: 'black', marginLeft: "50px", marginTop: "0px", fontSize: "26px", fontFamily: "'Montserrat Subrayada', sans-serif"}}>My Resume</a>
+                                <a href={resume} style={{color: 'black', marginLeft: "50px", marginTop: "0px", fontSize: "26px", fontFamily: "'Montserrat Subrayada', sans-serif"}}>My Resume</a>
                             </Icons>
                         </IconList>
 
