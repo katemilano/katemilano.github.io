@@ -51,12 +51,12 @@ export const HomeContent = styled.div`
 
 export const Homeh1 = styled.h1`
     margin-top: 50px;
-    font-size: 80px;
+    font-size: 70px;
     color: white;
     text-align: left;
     margin-left: 20%;
     margin-bottom: 0px;
-    fontFamily: 'Sen', sans-serif;
+    font-family: sans-serif;
 
     @media screen and (max-width: 960px){
         margin-left: 10%;
@@ -73,7 +73,7 @@ export const Homeh1 = styled.h1`
 
 export const Homeh3 = styled.h3`
     // font-family: 'Farro', sans-serif;
-    fontFamily: 'Sen', sans-serif;
+    font-family: 'Sen', sans-serif;
     // font-family: 'Zilla Slab Highlight', cursive;
     color: black;
     margin-left: 22%;

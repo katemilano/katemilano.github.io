@@ -58,11 +58,11 @@ export const MainContainer = styled.div`
         display: flex;
         justify-content: center;
         width: 600px;
-        margin-left: 15%;
+        margin-left: 20%;
     }
 
     @media screen and (max-width: 900px){
-        margin-left: 10%;
+        margin-left: 15%;
     }
 
     @media screen and (max-width: 850px){
