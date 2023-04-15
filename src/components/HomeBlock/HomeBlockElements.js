@@ -72,9 +72,7 @@ export const Homeh1 = styled.h1`
 `;
 
 export const Homeh3 = styled.h3`
-    // font-family: 'Farro', sans-serif;
-    font-family: 'Sen', sans-serif;
-    // font-family: 'Zilla Slab Highlight', cursive;
+    font-family: math;
     color: black;
     margin-left: 22%;
     margin-right: 12%;

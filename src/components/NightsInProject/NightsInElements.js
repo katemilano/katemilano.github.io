@@ -27,7 +27,7 @@ export const BodyContainer = styled.div`
 export const Header = styled.div`
     font-size: 70px;
     color: white;
-    font-family: 'Montserrat Subrayada',sans-seri;
+    font-family: math;
     margin-top: 10px;
 
 `;
