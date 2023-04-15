@@ -38,7 +38,7 @@ export const NavLogo = styled(LinkRouter)`
     font-weight: bold;
     text-decoration: none;
     margin-top: 30px;
-    font-family: 'Major Mono Display', monospace;    
+    font-family: math;   
 `;
 
 export const MobileIcon = styled.div`
@@ -71,7 +71,7 @@ export const NavMenu = styled.ul`
 
 export const NavItem = styled.li`
     height: 50px;
-    font-family: 'Montserrat Subrayada', sans-serif;
+    font-family: math;
 `;
 
 export const NavLinks = styled(LinkScroll)`
@@ -81,8 +81,7 @@ export const NavLinks = styled(LinkScroll)`
     text-decoration: none;
     padding: 0 1rem;
     height: 100%;
-    cursor: pointer:
-    // font-family: 'Mukta Mahee', sans-serif;    
+    cursor: pointer:   
 
     &.active{
         padding-bottom: none;
