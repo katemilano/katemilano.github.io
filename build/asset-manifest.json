@@ -5,11 +5,11 @@
     "main.js.map": "/static/js/main.3177f0bb.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.a0841f36.js",
     "runtime-main.js.map": "/static/js/runtime-main.a0841f36.js.map",
-    "static/js/2.bdfca905.chunk.js": "/static/js/2.bdfca905.chunk.js",
-    "static/js/2.bdfca905.chunk.js.map": "/static/js/2.bdfca905.chunk.js.map",
+    "static/js/2.e7a700f0.chunk.js": "/static/js/2.e7a700f0.chunk.js",
+    "static/js/2.e7a700f0.chunk.js.map": "/static/js/2.e7a700f0.chunk.js.map",
     "index.html": "/index.html",
     "static/css/main.caf95ada.chunk.css.map": "/static/css/main.caf95ada.chunk.css.map",
-    "static/js/2.bdfca905.chunk.js.LICENSE.txt": "/static/js/2.bdfca905.chunk.js.LICENSE.txt",
+    "static/js/2.e7a700f0.chunk.js.LICENSE.txt": "/static/js/2.e7a700f0.chunk.js.LICENSE.txt",
     "static/media/CMilanoResume.bdc16ad6.pdf": "/static/media/CMilanoResume.bdc16ad6.pdf",
     "static/media/ajax.a8ab9db8.png": "/static/media/ajax.a8ab9db8.png",
     "static/media/api.e21ada4c.png": "/static/media/api.e21ada4c.png",
@@ -34,7 +34,7 @@
   },
   "entrypoints": [
     "static/js/runtime-main.a0841f36.js",
-    "static/js/2.bdfca905.chunk.js",
+    "static/js/2.e7a700f0.chunk.js",
     "static/css/main.caf95ada.chunk.css",
     "static/js/main.3177f0bb.chunk.js"
   ]
