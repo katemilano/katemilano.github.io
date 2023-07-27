@@ -1,0 +1,34 @@
+{
+  "files": {
+    "main.css": "/static/css/main.06835869.css",
+    "main.js": "/static/js/main.f7befa82.js",
+    "static/media/pink.mp4": "/static/media/pink.eb09162100de1b280e17.mp4",
+    "static/media/pink3.png": "/static/media/pink3.4878977167fb9e7a11e2.png",
+    "static/media/workoutapp.png": "/static/media/workoutapp.a3804966ba18e034d6ef.png",
+    "static/media/locationhub.png": "/static/media/locationhub.5998b190d914243db37b.png",
+    "static/media/weatherdashboard.png": "/static/media/weatherdashboard.232eab4e3c4a382263c9.png",
+    "static/media/burger.png": "/static/media/burger.c13032434800bc081598.png",
+    "static/media/codequiz.png": "/static/media/codequiz.a0391d8d5e7d9b8bdcea.png",
+    "static/media/CMilanoResume.pdf": "/static/media/CMilanoResume.bdc16ad6c5ed776a8eed.pdf",
+    "static/media/profilepic.jpg": "/static/media/profilepic.6ff57455afdfad2a60cb.jpg",
+    "static/media/react.png": "/static/media/react.93a4bdf112404308934d.png",
+    "static/media/express.png": "/static/media/express.04e4743fbd704db71ed7.png",
+    "static/media/ajax.png": "/static/media/ajax.a8ab9db8c66372bf6a4c.png",
+    "static/media/nodejs.webp": "/static/media/nodejs.cd0aa57be0be48e9363d.webp",
+    "static/media/image.png": "/static/media/image.334c219e49ead75cb6bd.png",
+    "static/media/mongodb.png": "/static/media/mongodb.4163462205734082cfee.png",
+    "static/media/api.png": "/static/media/api.e21ada4cb57874693def.png",
+    "static/media/json.png": "/static/media/json.6994df2c3fa5ae68b2c5.png",
+    "static/media/css.webp": "/static/media/css.1c878badd6b0069f211a.webp",
+    "static/media/mysql.png": "/static/media/mysql.ddd2c1c93bb0ee974d33.png",
+    "static/media/html.png": "/static/media/html.397540dec969b31fd37c.png",
+    "static/media/jquery.png": "/static/media/jquery.e38108868360b72408b5.png",
+    "index.html": "/index.html",
+    "main.06835869.css.map": "/static/css/main.06835869.css.map",
+    "main.f7befa82.js.map": "/static/js/main.f7befa82.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.06835869.css",
+    "static/js/main.f7befa82.js"
+  ]
+}
