@@ -10,7 +10,7 @@ const HomeBlock = () => {
             </HomeBackground>
 
             <HomeContent>
-                <Homeh1 style={{marginRight: "400px", fontSize:"105px"}}>Hello, Welcome</Homeh1>
+                <Homeh1 style={{marginRight: "400px", fontSize:"100px"}}>Hello, Welcome</Homeh1>
 
             </HomeContent>
 
