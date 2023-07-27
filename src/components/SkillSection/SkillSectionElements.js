@@ -27,7 +27,7 @@ export const Header = styled.h1`
     color: black;
     padding-top: 60px;
     margin-top: 800px;
-    font-family: sans-serif;
+    font-family: 'Montserrat Subrayada', sans-serif;
 
 
     @media screen and (max-width: 960px){

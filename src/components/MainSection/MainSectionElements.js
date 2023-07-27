@@ -136,7 +136,7 @@ export const Header = styled.h1`
     padding-bottom: 10px;
     margin-bottom: 120px;
     z-index: 1;
-    font-family: sans-serif;
+    font-family: 'Montserrat Subrayada', sans-serif;
 
     @media screen and (max-width: 960px){
         padding-bottom: 300px;
