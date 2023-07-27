@@ -6,7 +6,7 @@ export const Nav = styled.nav`
     background: black;
     height: 90px;
     justify-content: center;
-    font-size: 1rem;
+    font-size: 1.4rem;
     display: flex;
     position: sticky;
     top: 0;
@@ -31,14 +31,14 @@ export const NavLogo = styled(LinkRouter)`
     color: white;
     justify-self: flex-start;
     cursor: pointer;
-    font-size: 1.5rem;
+    font-size: 1.8rem;
     display: flex;
     align-item: center;
     margin-left: 24px;
     font-weight: bold;
     text-decoration: none;
     margin-top: 30px;
-    font-family: math;   
+    font-family: inherit;
 `;
 
 export const MobileIcon = styled.div`
@@ -53,7 +53,7 @@ export const MobileIcon = styled.div`
         font-size: 1.8rem;
         cursor: pointer;
         margin-top: 35px;
-        margin-right: 35px;
+        margin-right: 350px;
     }
 `;
 
@@ -63,7 +63,7 @@ export const NavMenu = styled.ul`
     list-style: none;
     text-align: center;
     margin-top: 55px;
-    margin-right: 20px;
+    margin-right: 375px;
     @media screen and (max-width: 768px) {
         display: none;
     }
@@ -71,7 +71,7 @@ export const NavMenu = styled.ul`
 
 export const NavItem = styled.li`
     height: 50px;
-    font-family: math;
+    font-family: inherit;
 `;
 
 export const NavLinks = styled(LinkScroll)`

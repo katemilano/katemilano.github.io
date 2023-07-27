@@ -32,19 +32,19 @@ const ContactSection = () => {
                         <IconList>
                             <Icons>
                                 <FaEnvelope style={{color: 'black', marginLeft: "-300px"}} size={35}/>
-                                <a href="mailto:catherine.ann.milano@gmail.com" style={{color: 'black', marginLeft: "50px", fontSize: "28px", fontFamily: "'Montserrat Subrayada', sans-serif"}}>My Email</a>
+                                <a href="mailto:catherine.ann.milano@gmail.com" style={{color: 'black', marginLeft: "50px", fontSize: "28px", fontFamily: "sans-serif", fontWeight: "bolder",textDecoration: "none"}}>My Email</a>
                             </Icons>
                             <Icons>
                                 <FaGithub style={{color: 'black', marginLeft: "-290px"}} size={35}/>
-                                <a href="https://github.com/katemilano/" style={{color: 'black', marginLeft: "50px", marginTop: "0px", fontSize: "28px", fontFamily: "'Montserrat Subrayada', sans-serif"}}>My Github</a>
+                                <a href="https://github.com/katemilano/" style={{color: 'black', marginLeft: "50px", marginTop: "0px", fontSize: "28px", fontFamily: "sans-serif", fontWeight: "bolder",textDecoration: "none"}}>My Github</a>
                             </Icons>
                             <Icons>
                                 <FaLinkedin style={{color: 'black', marginLeft: "-270px"}} size={38}/>
-                                <a href="https://www.linkedin.com/in/catherine-milano-3aa22a116/" style={{color: 'black', marginLeft: "50px", marginTop: "0px", fontSize: "26px", fontFamily: "'Montserrat Subrayada', sans-serif"}}>My LinkedIn</a>
+                                <a href="https://www.linkedin.com/in/catherine-milano-3aa22a116/" style={{color: 'black', marginLeft: "50px", marginTop: "0px", fontSize: "26px", fontFamily: "sans-serif", fontWeight: "bolder",textDecoration: "none"}}>My LinkedIn</a>
                             </Icons>
                             <Icons>
                                 <FaFileDownload style={{color: 'black', marginLeft: "-290px"}} size={38}/>
-                                <a href={resume} style={{color: 'black', marginLeft: "50px", marginTop: "0px", fontSize: "26px", fontFamily: "'Montserrat Subrayada', sans-serif"}}>My Resume</a>
+                                <a href={resume} style={{color: 'black', marginLeft: "50px", marginTop: "0px", fontSize: "26px", fontFamily: "sans-serif", fontWeight: "bolder",textDecoration: "none"}}>My Resume</a>
                             </Icons>
                         </IconList>
 

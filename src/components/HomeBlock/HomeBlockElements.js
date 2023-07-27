@@ -50,7 +50,7 @@ export const HomeContent = styled.div`
 `;
 
 export const Homeh1 = styled.h1`
-    margin-top: 50px;
+    margin-top: -150px;
     font-size: 70px;
     color: white;
     text-align: left;
@@ -72,7 +72,7 @@ export const Homeh1 = styled.h1`
 `;
 
 export const Homeh3 = styled.h3`
-    font-family: math;
+    font-family: sans-serif;
     color: black;
     margin-left: 22%;
     margin-right: 12%;

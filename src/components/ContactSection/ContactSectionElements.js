@@ -71,7 +71,7 @@ export const SectionHeader = styled.h3`
     color: white;
     margin-top: -50px;
     color: white;
-    font-family: 'Montserrat Subrayada', sans-serif;
+    font-family: sans-serif;
     margin-bottom: 60px;
     padding-bottom: 20px;
 
@@ -180,7 +180,7 @@ export const Description = styled.p`
     margin-left: 12%;
     margin-top: -12%;
     line-height: 1.8;
-    font-family: 'Farro', sans-serif;
+    font-family: sans-serif;
 
     @media screen and (max-width: 960px){
         margin-top: -8%;
