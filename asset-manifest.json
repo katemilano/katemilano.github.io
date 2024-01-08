@@ -1,13 +1,13 @@
 {
   "files": {
-    "main.css": "/static/css/main.22e29da7.css",
-    "main.js": "/static/js/main.c0044e64.js",
+    "main.css": "/static/css/main.0a658528.css",
+    "main.js": "/static/js/main.fed7a74b.js",
     "static/media/pink.mp4": "/static/media/pink.eb09162100de1b280e17.mp4",
     "static/media/pink3.png": "/static/media/pink3.4878977167fb9e7a11e2.png",
-    "static/media/bckgrd.png": "/static/media/bckgrd.41723f2395245e7ade96.png",
     "static/media/ReachOut.png": "/static/media/ReachOut.f233880fc24cae5291a5.png",
     "static/media/Cartoon image.png": "/static/media/Cartoon image.92d4c7963ee4f5800c86.png",
     "static/media/workoutapp.png": "/static/media/workoutapp.a3804966ba18e034d6ef.png",
+    "static/media/background3.png": "/static/media/background3.d2df7d3d94d137a18d5e.png",
     "static/media/locationhub.png": "/static/media/locationhub.5998b190d914243db37b.png",
     "static/media/free-mail-10112474-8219379.png": "/static/media/free-mail-10112474-8219379.5e80240a161802ca6dc9.png",
     "static/media/weatherdashboard.png": "/static/media/weatherdashboard.232eab4e3c4a382263c9.png",
@@ -35,11 +35,11 @@
     "static/media/html.png": "/static/media/html.397540dec969b31fd37c.png",
     "static/media/jquery.png": "/static/media/jquery.e38108868360b72408b5.png",
     "index.html": "/index.html",
-    "main.22e29da7.css.map": "/static/css/main.22e29da7.css.map",
-    "main.c0044e64.js.map": "/static/js/main.c0044e64.js.map"
+    "main.0a658528.css.map": "/static/css/main.0a658528.css.map",
+    "main.fed7a74b.js.map": "/static/js/main.fed7a74b.js.map"
   },
   "entrypoints": [
-    "static/css/main.22e29da7.css",
-    "static/js/main.c0044e64.js"
+    "static/css/main.0a658528.css",
+    "static/js/main.fed7a74b.js"
   ]
 }
