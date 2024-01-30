@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.0a658528.css",
-    "main.js": "/static/js/main.ef60841b.js",
+    "main.js": "/static/js/main.0dee0ba5.js",
     "static/media/pink.mp4": "/static/media/pink.eb09162100de1b280e17.mp4",
     "static/media/pink3.png": "/static/media/pink3.4878977167fb9e7a11e2.png",
     "static/media/ReachOut.png": "/static/media/ReachOut.f233880fc24cae5291a5.png",
@@ -12,8 +12,8 @@
     "static/media/free-mail-10112474-8219379.png": "/static/media/free-mail-10112474-8219379.5e80240a161802ca6dc9.png",
     "static/media/weatherdashboard.png": "/static/media/weatherdashboard.232eab4e3c4a382263c9.png",
     "static/media/burger.png": "/static/media/burger.c13032434800bc081598.png",
+    "static/media/Resume_CatherineMilano.pdf": "/static/media/Resume_CatherineMilano.69929cedd0c7633012b7.pdf",
     "static/media/codequiz.png": "/static/media/codequiz.a0391d8d5e7d9b8bdcea.png",
-    "static/media/CMilanoResume.pdf": "/static/media/CMilanoResume.bdc16ad6c5ed776a8eed.pdf",
     "static/media/free-linkedin-2950130-2447889.png": "/static/media/free-linkedin-2950130-2447889.e1d5e6f2e4e2cf5b983f.png",
     "static/media/profilepic.jpg": "/static/media/profilepic.6ff57455afdfad2a60cb.jpg",
     "static/media/free-transfer-doc-file-9936209-8102717.png": "/static/media/free-transfer-doc-file-9936209-8102717.c64fd96d15d50636a751.png",
@@ -36,10 +36,10 @@
     "static/media/jquery.png": "/static/media/jquery.e38108868360b72408b5.png",
     "index.html": "/index.html",
     "main.0a658528.css.map": "/static/css/main.0a658528.css.map",
-    "main.ef60841b.js.map": "/static/js/main.ef60841b.js.map"
+    "main.0dee0ba5.js.map": "/static/js/main.0dee0ba5.js.map"
   },
   "entrypoints": [
     "static/css/main.0a658528.css",
-    "static/js/main.ef60841b.js"
+    "static/js/main.0dee0ba5.js"
   ]
 }
